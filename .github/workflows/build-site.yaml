@@ -1,0 +1,39 @@
+name: Build Site
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+permissions:
+    contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Install deps
+      run: sudo apt-get -y update && sudo apt-get -y install python3-jinja2 python3-yaml python3-markdown python3-dateutil
+
+    - name: Build site
+      run: make clean && make build
+
+    - name: Deploy back to GitHub
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --local user.name "GitHub Actions"
+        git config --local user.email "<>"
+        git checkout gh-pages
+        git pull --rebase origin master
+        [ ! -d docs ] && mkdir docs
+        cp -fr public/. docs/.
+        git add -f docs/
+        git commit -m 'GitHub Actions: build site' || echo 'Nothing to Commit'
+        git push -f origin gh-pages || echo 'Nothing to Push'

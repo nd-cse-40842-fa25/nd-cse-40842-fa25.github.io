@@ -1,0 +1,468 @@
+title:      Hackers in the Bazaar
+navigation:
+    - name: "Logistics"
+      link: "#logistics"
+    - name: "Schedule"
+      link: "#schedule"
+    - name: "Policies"
+      link: "#policies"
+    - name: "Resources"
+      link: "#resources"
+external:
+    schedule: 'data/schedule.yaml'
+body:       |
+
+    <div class="flex-row" markdown="1">
+
+    <div class="flex-col" markdown="1">
+
+    **CSE 40842** is a [Computer Science and Engineering] elective course at
+    the [University of Notre Dame] that explores the idea of a "hacker" and the
+    practice of participating in the open source "bazaar". To examine the
+    history and culture of hackers, we will read, discuss, and reflect on books
+    such as [Hackers: Heroes of the Computer Revolution], [Hackers & Painters],
+    [The Cathedral and the Bazaar], and [Just For Fun].  Additionally, students
+    will apply the ideas and concepts explored in these books by contributing
+    to different open source projects.  Finally, students will develop projects
+    of their own design by employing the open source development methodology.
+
+    Upon successful completion of this course, students will be able to:
+
+    1. **Discuss** the history and impact of the [Hacker Culture] and [Hacker
+    Ethic] on the technology community.
+
+    2. **Contribute** to open source projects in a productive and effective
+    manner.
+
+    3. **Construct** software artifacts in a collaborate group environment.
+
+    4. **Communicate** technical ideas and concepts to a public audience.
+
+    </div>
+
+    <div class="flex-col-25 centered" markdown="1">
+      <img src="static/img/books.jpg">
+    </div>
+
+    </div>
+
+    [Computer Science and Engineering]: http://cse.nd.edu
+    [University of Notre Dame]: http://www.nd.edu
+    [Hackers: Heroes of the Computer Revolution]: https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution
+    [Hackers & Painters]: https://en.wikipedia.org/wiki/Hackers_%26_Painters
+    [The Cathedral and the Bazaar]: https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar
+    [Just For Fun]: https://en.wikipedia.org/wiki/Just_for_Fun
+    [Hacker Culture]: https://en.wikipedia.org/wiki/Hacker_culture
+    [Hacker Ethic]: https://en.wikipedia.org/wiki/Hacker_ethic
+
+    ## Logistics
+
+    <div class="flex-row" markdown="1">
+
+    <div class="flex-col" markdown="1">
+    ### Class Information
+
+    <i class="icon">{{ "calendar-clock" | embed_icon }}</i> Date/Time
+    : **T/TH** 11:00 AM - 12:15 PM
+
+    <i class="icon">{{ "map-marker" | embed_icon }}</i> Location
+    : **102** Pasquerilla Center
+
+    <i class="icon">{{ "email" | embed_icon }}</i> Mailing List
+    : [fa25-cse-40842-01-group@nd.edu](mailto:fa25-cse-40842-01-group@nd.edu)
+
+    <i class="icon">{{ "slack" | embed_icon }}</i> Slack
+    : [#cse-40842-fa25](https://nd-cse.slack.com/messages/cse-40842-fa25)
+
+    <i class="icon">{{ "github" | embed_icon }}</i> GitHub
+    : [nd-cse-40842-fa25](https://github.com/nd-cse-40842-fa25)
+
+    </div>
+
+    <div class="flex-col" markdown="1">
+
+    ### Course Staff
+
+    <i class="icon">{{ "human-male-board" | embed_icon }}</i> Instructor
+    : Peter Bui ([pbui@nd.edu](mailto:pbui@nd.edu))
+
+    <i class="icon">{{ "calendar-question" | embed_icon }}</i> Office Hours
+    : **M/T/W/TH/F** 1:30 PM - 3:00 PM
+
+    </div>
+
+    </div>
+
+    ## Schedule
+
+    <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Topics</th>
+        <th>Assignments</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for unit in page.external['schedule'] %}
+    {% if not unit.get('days') %}
+    <tr>
+    {% if 'break' in unit['name'].lower() %}
+    <td colspan="3" class="unit"><i class="muted">{{ unit['name'] }}</i></td>
+    {% else %}
+    <td colspan="3" class="unit">{{ unit['name'] }}</td>
+    {% endif %}
+    </tr>
+    {% endif %}
+    {% for day in unit['days'] %}
+    <tr>
+      <td class="date">{{ day['date'] }}</td>
+      <td class="topics">
+      {% if day.get('topics') in ('Hackathon', 'Individual Reflection', 'Presentations') %}
+      <i class="muted">{{ day['topics'] }}</i>
+      {% else %}
+      {{ day['topics'] }}
+      {% endif %}
+      {% for item in day.get('items', []) %}
+      {% if item['name'].lower().startswith('exam') %}
+      {% set item_color = 'danger' %}
+      {% elif item['name'].lower().startswith('slide') %}
+      {% set item_color = 'success' %}
+      {% elif item['name'].lower().startswith('panopto') %}
+      {% set item_color = 'info' %}
+      {% else %}
+      {% set item_color = 'default' %}
+      {% endif %}
+      <a class="badge {{ item_color }}-btn" href="{{ item.get('link') }}">{{ item['name'] }}</a>
+      {% endfor %}
+      </td>
+      <td class="assignments">
+      {% for assignment in day.get('assignments', []) %}
+      {% if assignment.lower().startswith('reading') %}
+      {% set assignment_color = 'info' %}
+      {% elif assignment.lower().startswith('writing') %}
+      {% set assignment_color = 'primary' %}
+      {% elif assignment.lower().startswith('pro') %}
+      {% set assignment_color = 'caution' %}
+      {% else %}
+      {% set assignment_color = 'default' %}
+      {% endif %}
+      {% set assignment_link = ''.join(assignment.lower().split()) + '.html' %}
+      <a class="badge {{ assignment_color }}-btn" href="{{ assignment_link }}">
+      {{ assignment }}
+      </a>
+      {% endfor %}
+      </td>
+    </tr>
+    {% endfor %}
+    {% if unit.get('days') %}
+    <tr>
+    <td colspan="3" class="week">&nbsp;</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+    </tbody>
+    </table>
+
+    <div class="alert info-bg" markdown="1">
+
+    ### <i class="icon icon-medium">{{ "calendar-check" | embed_icon }}</i> Due Dates
+
+    - All **Writings** are due at **midnight Sunday** of the assigned week.
+
+    - All **Proposals** and **Progress Reports** are due at **midnight
+      Thursday** of the assigned week.
+
+    - All **Projects** aure due when they are **presented** in class.
+
+    </div>
+
+    ## Policies
+
+    <div class="flex-row" markdown="1">
+
+    <div class="flex-col" markdown="1">
+
+    ### Coursework
+
+    <table class="bordered">
+      <thead>
+        <th>Component</th>
+        <th>Description</th>
+        <th>Points</th>
+      </thead>
+      <tbody>
+        <tr class="info-bg">
+          <td class="centered"><span class="badge primary-btn">Writings</span></td>
+          <td>Weekly reading and writing individual assignments.</td>
+          <td class="centered">10 &times; 6</td>
+        </tr>
+        <tr class="caution-bg">
+          <td class="centered"><span class="badge caution-btn">Projects</span></td>
+          <td>Collaborative group projects.</td>
+          <td class="centered">45, 45, 60</td>
+        </tr>
+        <tr class="danger-bg">
+          <td class="centered"><span class="badge danger-btn">Presentations</span></td>
+          <td>Individual special interest presentations.</td>
+          <td class="centered">2 &times; 30</td>
+        </tr>
+        <tr class="warning-bg">
+          <td class="centered"><span class="badge warning-btn">Participation</span></td>
+          <td>Regular class attendance and contribution to class community.</td>
+          <td class="centered">30</td>
+        </tr>
+        <tr class="success-bg">
+          <td class="centered" style="font-weight: bold;">Total</td>
+          <td></td>
+          <td class="centered" style="font-weight: bold;">300</td>
+        </tr>
+      </tbody>
+    </table>
+
+    </div>
+
+    <div class="flex-col" markdown="1">
+
+    ### Grading
+
+    <table class="bordered">
+      <thead>
+        <th>Grade</th>
+        <th>Points</th>
+        <th>Grade</th>
+        <th>Points</th>
+        <th>Grade</th>
+        <th>Points</th>
+      </thead>
+      <tbody>
+        <tr class="centered success-bg">
+          <td></td>
+          <td></td>
+          <td style="font-weight: bold;">A</td>
+          <td>300 - 285</td>
+          <td style="font-weight: bold;">A-</td>
+          <td>285 - 270</td>
+        </tr>
+        <tr class="centered info-bg">
+          <td style="font-weight: bold;">B+</td>
+          <td>270 - 260</td>
+          <td style="font-weight: bold;">B</td>
+          <td>260 - 250</td>
+          <td style="font-weight: bold;">B-</td>
+          <td>250 - 240</td>
+        </tr>
+        <tr class="centered caution-bg">
+          <td style="font-weight: bold;">C+</td>
+          <td>240 - 230</td>
+          <td style="font-weight: bold;">C</td>
+          <td>230 - 220</td>
+          <td style="font-weight: bold;">C-</td>
+          <td>220 - 210</td>
+        </tr>
+        <tr class="centered danger-bg">
+          <td style="font-weight: bold;">D&nbsp;</td>
+          <td>210 - 200</td>
+          <td style="font-weight: bold;">F</td>
+          <td>200 - 0&nbsp;&nbsp;</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    </div>
+
+    </div>
+
+    <div class="flex-row" markdown="1">
+
+    <div class="flex-col" markdown="1">
+    ### Participation
+
+    Students are expected to **attend** lecture and **participate** regularly
+    during class by answering questions, contributing to discussions, and
+    helping other students.
+
+    Foreseeable absences should be discussed with the instructor ahead of time.
+    </div>
+
+    <div class="flex-col" markdown="1">
+    ### Community
+
+    Recalling one of the tenets of the [Hacker Ethic]:
+
+    > Hackers should be judged by their hacking, not criteria such as degrees,
+    age, race, sex, or position.
+
+    Students are expected to be **respectful** to their fellow classmates and
+    the course staff.
+
+    </div>
+
+    </div>
+
+
+    <div class="flex-row" markdown="1">
+
+    <div class="flex-col" markdown="1">
+    ### Students with Disabilities
+
+    Any student who has a documented disability and is registered with [Sara
+    Bea Accessibility Services] should speak with the professor as soon as
+    possible regarding accommodations. Students who are not registered should
+    contact the [Center for Student Support and Care].
+
+    </div>
+
+    <div class="flex-col" markdown="1">
+    ### Late Work
+
+    In the case of a serious illness or other excused absence, as defined by
+    university policies, coursework will be accepted late by the same number of
+    days as the excused absence.
+
+    Otherwise, there is an automatic **25% late penalty** for submissions
+    turned in **12 hours** past the **posted deadline**.
+
+    No assignments will be accepted after the **last day of class** without the
+    permission of the instructor.
+
+    </div>
+
+    </div>
+
+
+    <div class="flex-row" markdown="1">
+
+    <div class="flex-col" markdown="1">
+    ### Blog
+
+    All **Writing** responses to the **Readings** should be posted to each
+    student's individual blog. Choice of blog platform is up to each student,
+    but the student must provide a valid **RSS** or **ATOM** feed to their blog
+    at the beginning of the semester for easy syndication and monitoring.
+
+    </div>
+
+    <div class="flex-col" markdown="1">
+    ### Academic Dishonesty
+
+    All work that you submit must be your own. Collaboration is encouraged but
+    must be disclosed by all parties. Print or online resources are allowed,
+    but must be disclosed. However, you may not look at solutions from other
+    current or past students, or any other source.
+
+    Moreover, the use of **AI Tools** to generate blog posts for the
+    **Writing** assignments or slides for the **Individual Presentations** is
+    not allowed.  However, you may use **AI Tools** to build or develop your
+    **Project** artifacts (ie. software).
+
+    </div>
+
+    </div>
+
+    [Hacker Ethic]: https://en.wikipedia.org/wiki/Hacker_ethic
+    [Sara Bea Accessibility Services]: https://supportandcare.nd.edu/for-students/current-students/accessibility-support/
+    [Center for Student Support and Care]: https://supportandcare.nd.edu/
+    [Undergraduate Academic Code of Honor]: https://honorcode.nd.edu/
+
+    ## Resources
+
+    We will be reading the following books this semester:
+
+    <div class="flex-row" markdown="1">
+
+    <div class="flex-col" markdown="1">
+
+    <div class="flex-row" markdown="1">
+
+    <div class="flex-col" markdown="1">
+      <div class="centered">
+      <img src="static/img/hackers-heroes.jpg">
+      </div>
+    </div>
+
+    <div class="flex-col" markdown="1">
+    Title
+    : Hackers: Heroes of the Computer Revolution
+
+    Authors
+    : Steven Levy
+    </div>
+    
+    </div>
+
+    </div>
+
+    <div class="flex-col" markdown="1">
+
+    <div class="flex-row" markdown="1">
+
+    <div class="flex-col" markdown="1">
+      <div class="centered">
+      <img src="static/img/hackers-painters.jpg">
+      </div>
+    </div>
+
+    <div class="flex-col" markdown="1">
+    Title
+    : Hackers and Painters: Big Ideas from the Computer Age
+
+    Authors
+    : Paul Graham
+    </div>
+    
+    </div>
+
+    </div>
+
+    </div>
+        
+    <div class="flex-row" markdown="1">
+    
+    <div class="flex-col" markdown="1">
+
+    <div class="flex-row" markdown="1">
+
+    <div class="flex-col" markdown="1">
+      <div class="centered">
+        <img src="static/img/cathedral.jpg">
+      </div>
+    </div>
+
+    <div class="flex-col" markdown="1">
+    Title
+    : The Cathedral & the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary
+
+    Authors
+    : Eric Raymond
+    </div>
+    
+    </div>
+
+    </div>
+  
+    <div class="flex-col" markdown="1">
+
+    <div class="flex-row" markdown="1">
+
+    <div class="flex-col" markdown="1">
+      <div class="centered">
+        <img src="static/img/justforfun.jpg">
+      </div>
+    </div>
+
+    <div class="flex-col" markdown="1">
+    Title
+    : Just For Fun: The Story of an Accidental Revolutionary
+
+    Authors
+    : Linus Torvalds and David Diamond
+    </div>
+      
+    </div>
+
+    </div>
+    
+    </div>

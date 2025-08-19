@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="static/ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="static/ico/favicon-16x16.png">
+<link rel="manifest" href="static/ico/site.webmanifest">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="static/css/pnutzh4x0r.css">
+{% if not page.path[-1] == 'index.yaml' %}
+<title>{{ page.title }}</title>
+{% else %}
+<title>{{ site.title }}</title>
+{% endif %}
+</head>
+<body>
+<header>
+{% include "header.html" %}
+</header>
+<main>
+{% block main %}
+{% endblock main %}
+</main>
+<footer>
+{% include "footer.html" %}
+</footer>
+</body>
+</html>
