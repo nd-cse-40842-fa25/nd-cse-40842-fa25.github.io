@@ -1,0 +1,65 @@
+title:      "Reading 02: Hardware Hackers"
+navigation:
+  - name:   Home
+    link:   index.html
+body:       |
+
+  ## Readings
+  
+  <div class="flex-row" markdown="1">
+  
+  <div class="flex-col" markdown="1">
+
+  The readings for this week revolves around the origin of the personal
+  computer and features the [Homebrew Computer Club], the [BASIC] programming
+  language, and the [Woz].
+
+  1. [Hackers: Heroes of the Computer Revolution]
+
+      - **Part Two. HARDWARE HACKERS**
+
+  </div>
+
+  <div class="flex-col-25 centered">
+    <img src="static/img/hackers-heroes.jpg">
+  </div>
+
+  </div>
+
+  ## Reflection
+
+  The second part of [Hackers: Heroes of the Computer Revolution] is entitled
+  "Hardware Hackers" and discusses a second wave of hackers who sought to
+  "tak[e] the [Hacker Ethic] to the streets ... [and] promote a version of the
+  hacker dream that would ... spread the computer gospel through, all things,
+  the marketplace".
+
+  For this upcoming week, you are to consider the following questions as you
+  perform the readings and participate in class:
+
+  - How were the "True Hackers" and the "Hardware Hackers" similar?  How were
+    they different?  How did they view each other?
+
+  - How did the "Hardware Hackers" manifest the desire to "dissipate the 'aura
+    of elitism, and even mysticism, that surrounds the world of technology'"?
+
+  - What were the tensions that emerged as the [Hacker Ethic] spread beyond
+    "the limited, monastic communities around the machine, to a world where the
+    machines were everywhere" via commercialization?
+
+  - Do you agree with Lee Felsenstein that technology can be a force for good,
+    or do you side with Efrem Lipkin that is a dangerous tool of oppression?
+
+  Note, you should not simply list the questions and answer each one directly.
+  Instead, the questions are there to help you brainstorm about the question:
+
+  > How important is spreading the [Hacker Ethic] to a wider audience?  Is
+  compromising ideals (abandoning parts of the [Hacker Ethic]), worth having a
+  larger impact on the world (and coincidently more financial success)?
+
+  [Hackers: Heroes of the Computer Revolution]: https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution
+  [Hacker Ethic]: https://en.wikipedia.org/wiki/Hacker_ethic
+
+  [Homebrew Computer Club]: https://en.wikipedia.org/wiki/Homebrew_Computer_Club
+  [BASIC]: https://en.wikipedia.org/wiki/BASIC
+  [Woz]: https://en.wikipedia.org/wiki/Steve_Wozniak
