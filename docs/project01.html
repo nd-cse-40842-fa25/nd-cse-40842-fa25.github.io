@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="static/ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="static/ico/favicon-16x16.png">
+<link rel="manifest" href="static/ico/site.webmanifest">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="static/css/pnutzh4x0r.css">
+<title>Project 01: Retro Computing</title>
+</head>
+<body>
+<header>
+<a class="logo" href="project01.html">
+    <h1>Project 01: Retro Computing</h1>
+</a>
+<nav>
+    <ul>
+        <li><a href="index.html"><h4>Home</h4></a></li>
+        </ul>
+</nav></header>
+<main>
+<p><strong>Everyone</strong>:</p>
+<p>The first book of the semester, <a href="https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution">Hackers: Heroes of the Computer Revolution</a>,
+examines the origin of <a href="https://en.wikipedia.org/wiki/Hacker">Hackers</a> and their associated culture and philosophy.
+In doing so, the book recounts elements of computing history that many
+students may be unfamiliar with.</p>
+<p>For the first project, you are to work in groups of <strong>2 - 3</strong> students to
+modify or re-create a computing artifact from the past that runs in a
+<strong>resource constrained environment</strong>. What this means is that the software
+you develop should run in an environment with <strong>low resources</strong> (CPU, memory,
+disk, etc.) such as an <a href="https://www.arduino.cc/">Arduino</a>, a <a href="https://www.raspberrypi.org/">Raspberry Pi</a>, or an <a href="https://en.wikipedia.org/wiki/Emulator">emulator</a> such as
+<a href="https://www.dosbox.com/">DOSBox</a>.</p>
+<p>In addition to creating a software or hardware artifact, students must also
+provide a presentation on the background or context of their chosen
+historical artifact and its significance in computing history.</p>
+<h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
+<p>Working in groups of <strong>2 - 3</strong>, students must create a software or hardware
+artifact that meets the following requirements:</p>
+<ol>
+<li>
+<p>The artifact is grounded in some element of computing history.</p>
+</li>
+<li>
+<p>The artifact is interactive and is capable of being manipulated by a user
+via some sort of input device.</p>
+</li>
+<li>
+<p>The artifact should run in a resource constrained environment.</p>
+</li>
+<li>
+<p>The source code is stored on an online repository such as <a href="https://github.com">GitHub</a>,
+<a href="https://gitlab.com">GitLab</a>, or <a href="https://codeberg.org/">Codeberg</a>.</p>
+</li>
+<li>
+<p>The project includes sufficient documentation to build, deploy, and use
+the artifact.</p>
+</li>
+<li>
+<p>The project <code>README.md</code> must explain the project and its context in terms
+of computing history and the importance of the historical artifact (between
+<strong>250</strong> - <strong>500</strong> words).</p>
+</li>
+</ol>
+<div class="alert warning-bg">
+<h3 id="history-embed_icon-keeping-it-old-school"><i class="icon icon-medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>history</title><path d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3" /></svg>
+</i> Keeping it Old School<a class="headerlink" href="#history-embed_icon-keeping-it-old-school" title="Permanent link">&para;</a></h3>
+<p>Because the purpose of the project is to provide you an opportunity to
+experience what it was like to program on old (ie. resource constrained)
+computing system, you should avoid using modern programming languages and
+libraries such as <a href="https://www.python.org/">Python</a> and <a href="http://www.pygame.org/">PyGame</a>. Instead, you should focus on <a href="https://en.wikipedia.org/wiki/The_C_Programming_Language">C</a>,
+<a href="https://isocpp.org/">C++</a>, <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">Scheme</a>, <a href="https://en.wikipedia.org/wiki/Lisp_(programming_language)">LISP</a>, or even <a href="https://en.wikipedia.org/wiki/Assembly_language">assembly</a> and render your graphics
+directly.</p>
+<p>That said, the artifact, platform, and tools is mostly up to you; use this
+opportunity to explore something interesting to you.</p>
+<p>If in doubt, ask the instructor if you can utilize a particular tool or
+library.</p>
+</div>
+<h2 id="ideas">Ideas<a class="headerlink" href="#ideas" title="Permanent link">&para;</a></h2>
+<p>Here is a list of possible project ideas:</p>
+<ol>
+<li>
+<p>Write a text-based MUD such as <a href="https://en.wikipedia.org/wiki/Zork">Zork</a>, <a href="https://en.wikipedia.org/wiki/Adventure_(Atari_2600)">Adventure</a>, <a href="https://en.wikipedia.org/wiki/NetHack">NetHack</a>, or <a href="https://en.wikipedia.org/wiki/Rogue_(video_game)">Rogue</a>.</p>
+</li>
+<li>
+<p>Compose a musical and graphical demo akin to the <a href="https://en.wikipedia.org/wiki/Commodore_64_demos">Commodore 64 demos</a>.</p>
+</li>
+<li>
+<p>Program a game in <a href="https://en.wikipedia.org/wiki/QBasic">QBasic</a> such as <a href="https://en.wikipedia.org/wiki/Nibbles_(video_game)">Nibbles</a> or <a href="https://en.wikipedia.org/wiki/Gorillas_(video_game)">Gorillas</a>.</p>
+</li>
+<li>
+<p>Prototype an interpreter for <a href="https://en.wikipedia.org/wiki/Lisp_(programming_language)">LISP</a>, <a href="https://en.wikipedia.org/wiki/Forth_(programming_language)">FORTH</a>, or <a href="https://en.wikipedia.org/wiki/BASIC">BASIC</a>.</p>
+</li>
+<li>
+<p>Re-create a classic game such <a href="https://en.wikipedia.org/wiki/Spacewar!">SpaceWar!</a>, <a href="https://en.wikipedia.org/wiki/Pac-Man">Pac-Man</a>, <a href="https://en.wikipedia.org/wiki/Breakout_(video_game)">Breakout</a>, <a href="https://en.wikipedia.org/wiki/Frogger">Frogger</a>.</p>
+</li>
+<li>
+<p>Develop a machine emulator for the <a href="https://en.wikipedia.org/wiki/Z80">Z80</a>, <a href="https://en.wikipedia.org/wiki/Intel_8086">8086</a>, or <a href="https://en.wikipedia.org/wiki/Motorola_6800">M68K</a>.</p>
+</li>
+<li>
+<p>Create a telnet <a href="https://en.wikipedia.org/wiki/Bulletin_board_system">BBS</a> system such as <a href="https://en.wikipedia.org/wiki/Community_Memory">Community Memory</a>, <a href="https://en.wikipedia.org/wiki/PLATO_(computer_system)">PLATO</a>, or <a href="https://en.wikipedia.org/wiki/CBBS">CBBS</a>.</p>
+</li>
+<li>
+<p>Construct a chat bot like <a href="https://en.wikipedia.org/wiki/ELIZA">ELIZA</a>.</p>
+</li>
+<li>
+<p>Mod an old game like <a href="https://en.wikipedia.org/wiki/Doom_(series)">Doom</a>.</p>
+</li>
+<li>
+<p>Write a program that generates/plays music (ala <a href="https://en.wikipedia.org/wiki/Peter_Samson">Samson</a> or Dompier) (perhaps using <a href="https://en.wikipedia.org/wiki/MIDI">MIDI</a>).</p>
+</li>
+<li>
+<p>Develop a game an <a href="https://www.arduino.cc/">Arduino</a> kit such as the <a href="https://arduboy.com/">Arduboy</a>.</p>
+</li>
+<li>
+<p>Write some <strong>obfuscated code</strong> ala <a href="https://en.wikipedia.org/wiki/International_Obfuscated_C_Code_Contest">IOCCC</a>.</p>
+</li>
+<li>
+<p>Produce a <a href="https://en.wikipedia.org/wiki/Quine_%28computing%29">coding quine</a>.</p>
+</li>
+<li>
+<p>Animate a short visualization or story using low-level graphics primitives.</p>
+</li>
+<li>
+<p>Write an <strong>Albacore</strong> simulator or assembler.</p>
+</li>
+</ol>
+<div class="alert info-bg">
+<h3 id="code-tags-embed_icon-mvp"><i class="icon icon-medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>code-tags</title><path d="M14.6,16.6L19.2,12L14.6,7.4L16,6L22,12L16,18L14.6,16.6M9.4,16.6L4.8,12L9.4,7.4L8,6L2,12L8,18L9.4,16.6Z" /></svg>
+</i> MVP<a class="headerlink" href="#code-tags-embed_icon-mvp" title="Permanent link">&para;</a></h3>
+<p>Because of the short time-frame, it is not expected that your artifact be
+polished or feature complete.  Instead, it should be more along the lines of
+a prototype or <a href="https://en.wikipedia.org/wiki/Minimum_viable_product">MVP</a> (e.g. a cool <a href="https://en.wikipedia.org/wiki/Kludge#Computer_science">hack</a>).</p>
+</div>
+<h2 id="timeline">Timeline<a class="headerlink" href="#timeline" title="Permanent link">&para;</a></h2>
+<p>Here is the project timeline:</p>
+<table class="bordered">
+<thead>
+  <th>Date</th>
+  <th>Milestone</th>
+  <th>Description</th>
+</thead>
+<tbody>
+  <tr class="success-bg">
+    <td class="text-strong">Thursday, September 04</td>
+    <td>Proposal</td>
+    <td>Description of proposed project.</td>
+  </tr>
+  <tr class="caution-bg">
+    <td class="text-strong">Thursday, September 11</td>
+    <td>Progress</td>
+    <td>Status report of current progress.</td>
+  </tr>
+  <tr class="warning-bg">
+    <td class="text-strong">Tuesday, September 16</td>
+    <td>Hackathon</td>
+    <td>Group work period.</td>
+  </tr>
+  <tr class="danger-bg">
+    <td class="text-strong">Thursday, September 18</td>
+    <td>Presentation</td>
+    <td>In-class presentations and demonstrations.</td>
+  </tr>
+</tbody>
+</table>
+
+<p>More details about each of these milestones is described below.</p>
+<h3 id="proposal">Proposal<a class="headerlink" href="#proposal" title="Permanent link">&para;</a></h3>
+<p>Your group must submit a proposal document by <strong>midnight Thursday, September
+5</strong>, which provides the following information:</p>
+<ol>
+<li>
+<p>Lists the group members and each of their proposed roles.</p>
+</li>
+<li>
+<p>Describe the proposed project and how it meets the project requirements.</p>
+</li>
+<li>
+<p>Enumerates any resources required.</p>
+</li>
+</ol>
+<div class="alert success-bg">
+<h3 id="cash-embed_icon-hardware-resources"><i class="icon icon-medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>cash</title><path d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" /></svg>
+</i> Hardware Resources<a class="headerlink" href="#cash-embed_icon-hardware-resources" title="Permanent link">&para;</a></h3>
+<p>If you need any hardware resources such as an <a href="https://arduboy.com/">Arduboy</a> or a <a href="https://www.raspberrypi.org/">Raspberry Pi</a>,
+please let the instructor know and he will see if he can procure your
+requests. Please do this sooner rather than later.</p>
+</div>
+<h3 id="progress">Progress<a class="headerlink" href="#progress" title="Permanent link">&para;</a></h3>
+<p>Your group must submit a proposal <strong>slide deck</strong> (<strong>5 - 8</strong> slides) by
+<strong>midnight Thursday, September 11</strong>, which provides the following
+information:</p>
+<ol>
+<li>
+<p>Addresses the questions and expectations in feedback email provided
+regarding the project proposal.</p>
+</li>
+<li>
+<p>Summarizes the work done this far, in particular the design and
+implementation details of your artifact.</p>
+</li>
+<li>
+<p>Enumerates the remaining tasks, with specifics on what you plan on
+accomplishing during the upcoming sprint week and what you realistically plan
+on accomplishing before the deadline.</p>
+</li>
+<li>
+<p>Itemize contributions to the project thus far and what how each member
+will aid in completing the tasks above.</p>
+</li>
+</ol>
+<div class="alert warning-bg">
+<p>If possible, provide <strong>video</strong> or <strong>image</strong> evidence of your project and your
+progress.</p>
+</div>
+<h3 id="presentation">Presentation<a class="headerlink" href="#presentation" title="Permanent link">&para;</a></h3>
+<p>Because we are aiming for a <a href="https://en.wikipedia.org/wiki/Homebrew_Computer_Club">Homebrew Computer Club</a> style presentation, we
+will basically organize a "science fair" style demonstration environment:</p>
+<blockquote>
+<p>Each group will setup a <strong>booth</strong> which will present information about
+their project and allow other students to interact with their artifact.</p>
+<p>During class, students will be allowed to visit other <strong>booths</strong> to try
+out the artifacts and to learn about the computing history involved with each project.</p>
+</blockquote>
+<p>Think of it like a mini "science fair".  In addition to the interactive
+artifact or demonstration, each group booth should also provide the following
+information:</p>
+<ol>
+<li>
+<p>Explain the historical context and background of your artifact.</p>
+</li>
+<li>
+<p>Describe the overall design and implementation of the artifact (and how
+each person contributed), focusing on the key concepts and ideas.</p>
+</li>
+<li>
+<p>Summarize what was accomplished and what was learned.</p>
+</li>
+</ol>
+<p>This information can be presented on a <strong>poster</strong> or as a slideshow on a
+computer.</p>
+<h2 id="rubric">Rubric<a class="headerlink" href="#rubric" title="Permanent link">&para;</a></h2>
+<p>The project will be graded with the following rubric:</p>
+<table class="bordered">
+<thead>
+  <th>Metric</th>
+  <th>Points</th>
+  <th>Description</th>
+</thead>
+<tbody>
+<tr class="success-bg">
+  <td class="text-strong">Proposal</td>
+  <td>5</td>
+  <td>Does the proposed project meet the requirements?</td>
+</tr>
+<tr class="caution-bg">
+  <td class="text-strong">Progress</td>
+  <td>10</td>
+  <td>How much work did the group do before the hackathon?</td>
+</tr>
+<tr class="warning-bg">
+  <td class="text-strong">Presentation</td>
+  <td>5</td>
+  <td>How well did the group present and demonstrate their artifact?</td>
+</tr>
+<tr class="warning-bg">
+  <td class="text-strong">Requirements</td>
+  <td>5</td>
+  <td>How well did the project meet the requirements?</td>
+</tr>
+<tr class="warning-bg">
+  <td class="text-strong">Technical Challenge</td>
+  <td>5</td>
+  <td>How difficult was the project?</td>
+</tr>
+<tr class="danger-bg">
+  <td class="text-strong">Execution</td>
+  <td>7.5</td>
+  <td>How complete was the project?</td>
+</tr>
+<tr class="danger-bg">
+  <td class="text-strong">User Experience</td>
+  <td>7.5</td>
+  <td>How enjoyable was project for end users?</td>
+</tr>
+</tbody>
+</table>
+
+<div class="alert danger-bg">
+<h3 id="scale-balance-embed_icon-peer-evaluation"><i class="icon icon-medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>scale-balance</title><path d="M12,3C10.73,3 9.6,3.8 9.18,5H3V7H4.95L2,14C1.53,16 3,17 5.5,17C8,17 9.56,16 9,14L6.05,7H9.17C9.5,7.85 10.15,8.5 11,8.83V20H2V22H22V20H13V8.82C13.85,8.5 14.5,7.85 14.82,7H17.95L15,14C14.53,16 16,17 18.5,17C21,17 22.56,16 22,14L19.05,7H21V5H14.83C14.4,3.8 13.27,3 12,3M12,5A1,1 0 0,1 13,6A1,1 0 0,1 12,7A1,1 0 0,1 11,6A1,1 0 0,1 12,5M5.5,10.25L7,14H4L5.5,10.25M18.5,10.25L20,14H17L18.5,10.25Z" /></svg>
+</i> Peer Evaluation<a class="headerlink" href="#scale-balance-embed_icon-peer-evaluation" title="Permanent link">&para;</a></h3>
+<p>The first two metrics will be graded by the instructor, but the final five
+metrics will be evaluated based on feedback from your fellow classmates.</p>
+</div>
+<!--//
+To evaluate your peers, use the following [form]():
+
+<div class="text-center">
+</div>
+//-->
+
+<h2 id="deliverables">Deliverables<a class="headerlink" href="#deliverables" title="Permanent link">&para;</a></h2>
+<p>Once you have organized your group, please have one group member fill out the following <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBi4eBTx6e4-maLPEj7-NMNyowdUkEPdm8A_xGEjsU4WWP7g/viewform?usp=header">form</a>:</p>
+<div class="centered">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdBi4eBTx6e4-maLPEj7-NMNyowdUkEPdm8A_xGEjsU4WWP7g/viewform?embedded=true" width="800" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+
+<div class="alert info-bg">
+<h3 id="share-variant-embed_icon-shared-google-drive-folder"><i class="icon icon-medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>share-variant</title><path d="M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z" /></svg>
+</i> Shared Google Drive Folder<a class="headerlink" href="#share-variant-embed_icon-shared-google-drive-folder" title="Permanent link">&para;</a></h3>
+<p><strong>Note</strong>, you will place your <strong>Proposal</strong>, <strong>Progress Report</strong>, and
+<strong>Presentation</strong> in the <strong>Google Drive</strong> folder that you link in the form above.</p>
+<p>Make sure you give the instructor <strong>permissions</strong> to view the contents of the
+shared <strong>Google Drive</strong> folder.</p>
+</div>
+</main>
+<footer>
+Built using <a href="https://python.org">Python</a>
+and <a href="https://jinja.palletsprojects.com">Jinja</a>
+with colors from <a href="https://nordtheme.com">Nord Theme</a>
+and icons from <a href="https://pictogrammers.com/library/mdi/">Material Design Icons</a>.</footer>
+</body>
+</html>
