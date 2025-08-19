@@ -102,29 +102,39 @@ body:       |
   you will work in teams of **2 - 3** students on **three group projects** (each
   related to one of the books above):
 
-  1. **Retro Computing**: The first project involves creating a software or
-    hardware artifact rooted in computing history.  This can involve using
-    older systems or programming languages, re-creating famous classic
-    programs, or utilizing resource constrained (embedded) hardware.
+  1.  <div class="flex-col">
+
+      **Retro Computing**: The first project involves creating a software or
+        hardware artifact rooted in computing history.  This can involve using
+        older systems or programming languages, re-creating famous classic
+        programs, or utilizing resource constrained (embedded) hardware.
 
       *This artifact will be presented in the style of a [Homebrew Computer
       Club] talk*.
 
-  2. **Cloud Computing**: The second project is an opportunity to explore both
-    cloud computing and to learn a new programming language by building a web
-    application or service.
+  2.  <div class="flex-col">
+
+      **Cloud Computing**: The second project is an opportunity to explore both
+        cloud computing and to learn a new programming language by building a
+        web application or service.
 
       *This artifact will be presented in the style of a [TechCrunch]-style
       startup pitch*.
 
-  3. **Open Source**: For the third project you have a choice:
+  3.  <div class="flex-col">
 
-      - Make a reasonable contribution to an existing [open source] project.
+      **Open Source**: For the third project you have a choice:
+
+      - <div class="flex-col">
+
+          Make a reasonable contribution to an existing [open source] project.
 
           *This artifict will be presented as a case study.*
 
-      - Make a computing artifact of your choosing using the [open source]
-        development model.
+      - <div class="flex-col">
+
+          Make a computing artifact of your choosing using the [open source]
+          development model.
 
           *This artifact will be presented as a typical course project
           presentation and demonstration.*
@@ -142,7 +152,7 @@ body:       |
 
   [Presentation Schedule]: https://docs.google.com/spreadsheets/d/1LV1VIHNt37qDnaJj5LwgpSwC4CmZGIEih4w0uHTZuao/edit?usp=sharing
 
-  ## Readings
+  ## Reading
 
   <div class="flex-row" markdown="1">
 
@@ -151,7 +161,9 @@ body:       |
   The reading for this week revolves around the origins of [hacker culture] and
   the development of the [hacker ethic]:
 
-  1. [Hackers: Heroes of the Computer Revolution]
+  1. <div class="flex-col">
+
+      [Hackers: Heroes of the Computer Revolution]
 
       - **Part One. TRUE HACKERS**
 
@@ -198,7 +210,7 @@ body:       |
   ### <i class="icon icon-medium">{{ "scale-balance" | embed_icon }}</i> Grading
 
   Each reflection should be between **500** - **1000** words.  Each post will be
-  graded in terms of:<br><br>
+  graded in terms of:
 
   - Was the post submitted on time?
 
