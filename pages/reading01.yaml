@@ -1,0 +1,259 @@
+title:      "Reading 01: True Hackers"
+navigation:
+  - name:   Home
+    link:   "index.html"
+body:       |
+
+  **Everyone**:
+
+  Welcome to [CSE 40842 Hackers in the Bazaar], which is an elective course
+  that explores the idea of a [hacker] and the practice of participating in the
+  open source [bazaar].  This semester we will examine the history and culture
+  of hackers and open source by reading, discussing, and reflecting on the four
+  different books.  Likewise, we will apply the ideas and concepts explored in
+  these books through **three group projects**.
+
+  [CSE 40842 Hackers in the Bazaar]: index.html
+  [hacker]: https://en.wikipedia.org/wiki/Hacker
+  [bazaar]: https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar
+  [Hackers: Heroes of the Computer Revolution]: https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution
+  [Hackers & Painters: Big Ideas from the Computer Age]: https://en.wikipedia.org/wiki/Hackers_%26_Painters
+  [The Cathedral and the Bazaar: Musings on Linux and Open Source by An Accidental Revolutionary]: https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar
+  [Just For Fun: The Story of an Accidental Revolutionary]: https://en.wikipedia.org/wiki/Linus_Torvalds#Bibliography
+
+  ## Course Overview
+
+  <div class="flex-row" markdown="1">
+
+  <div class="flex-col" markdown="1">
+
+  As you can see from the [course schedule](index.html#schedule), we will split
+  the course into four sections (each related to a particular book):
+
+  1. [Hackers: Heroes of the Computer Revolution]: The first book examines the
+  origins of [hacker culture] and the [hacker ethic] along with the early days
+  of the computer revolution.
+
+  2. [Hackers & Painters: Big Ideas from the Computer Age]: The second book
+  explores how the [hacker culture] continues to influence the ethos of the
+  modern technology industry and in particular disruptive startups.
+
+  3. [The Cathedral and the Bazaar: Musings on Linux and Open Source by an
+  Accidental Revolutionary]: The third book discusses the underlying principles
+  and motivations for [open source] and [free software].
+
+  4. [Just For Fun: The Story of an Accidental Revolutionary]:  The last book
+  is an auto-biography of [Linus Torvalds], the creator of [Linux] and [git].
+
+  </div
+
+  <div class="flex-col-25 centered" markdown="1">
+    <img src="static/img/books.jpg">
+  </div>
+
+  </div>
+
+  Each week, we will spend the Tuesday class time discussing the reading for
+  the week, along with the historical, social, political, and economic issues
+  related to the week's topic.
+
+  ### Presentations
+
+  Thursday classes, on the other hand, will focus more on the technical and
+  practical aspects of the reading and may involve different presentations,
+  tutorials, or hands-on activities **provided by your classmates**.  As a part
+  of this course, each student must give **two individual presentations** this
+  semester:
+
+  - A [Presentation Schedule] is available on Google Drive.  You must volunteer
+    for **two presentations**.
+
+  - The first presentation must be performed before **Fall Break**, while the
+    second presentation must be performed before the **last week of class**.
+
+  - Each presentation must be between **8 - 10** minutes long and must be
+    related to the week's topics.
+
+  - A list of presentation suggestions is provided in the [Presentation
+    Schedule].  Feel free to ask the instructor if you have alternative talk
+    ideas that fit the topics for the given week.
+
+  - You may partner up with one other student, but the presentation must then
+    be **16 - 20** minutes long.
+
+  - The presentation can involve a simple slide deck, hands-on activities,
+    demos, or a guided tutorial (it's up to you).
+
+  To reserve a speaking slot, fill in the a box on the [Presentation Schedule]
+  and message the instructor to notify him of your reserveration (*please do so
+  a few days in advance for planning purposes*).
+
+  ### Readings
+
+  To provide a context for our weekly discussions, you will have reading
+  assignments from the books listed above and a corresponding reflection that
+  you must post on your own **blog**. Unlike in some other courses, the writing
+  **reflection** is due at the **end of the week** after we have discussed the
+  week's topic and explored it in class.
+
+  ### Projects
+
+  In addition to the individual presentations and weekly writing assignments,
+  you will work in teams of **2 - 3** students on **three group projects** (each
+  related to one of the books above):
+
+  1. **Retro Computing**: The first project involves creating a software or
+    hardware artifact rooted in computing history.  This can involve using
+    older systems or programming languages, re-creating famous classic
+    programs, or utilizing resource constrained (embedded) hardware.
+
+      *This artifact will be presented in the style of a [Homebrew Computer
+      Club] talk*.
+
+  2. **Cloud Computing**: The second project is an opportunity to explore both
+    cloud computing and to learn a new programming language by building a web
+    application or service.
+
+      *This artifact will be presented in the style of a [TechCrunch]-style
+      startup pitch*.
+
+  3. **Open Source**: For the third project you have a choice:
+
+      - Make a reasonable contribution to an existing [open source] project.
+
+          *This artifict will be presented as a case study.*
+
+      - Make a computing artifact of your choosing using the [open source]
+        development model.
+
+          *This artifact will be presented as a typical course project
+          presentation and demonstration.*
+
+  More details about the projects and the associated proposals and progress
+  reports will be provided on their respective project write-ups.
+
+  [open source]: https://en.wikipedia.org/wiki/Open_source
+  [free software]: https://en.wikipedia.org/wiki/Free_software
+  [Linus Torvalds]: https://en.wikipedia.org/wiki/Linus_Torvalds
+  [Linux]: https://en.wikipedia.org/wiki/Linux
+  [git]: https://en.wikipedia.org/wiki/Git
+  [Homebrew Computer Club]: https://en.wikipedia.org/wiki/Homebrew_Computer_Club
+  [TechCrunch]: https://techcrunch.com/
+
+  [Presentation Schedule]: https://docs.google.com/spreadsheets/d/1LV1VIHNt37qDnaJj5LwgpSwC4CmZGIEih4w0uHTZuao/edit?usp=sharing
+
+  ## Readings
+
+  <div class="flex-row" markdown="1">
+
+  <div class="flex-col" markdown="1">
+
+  The reading for this week revolves around the origins of [hacker culture] and
+  the development of the [hacker ethic]:
+
+  1. [Hackers: Heroes of the Computer Revolution]
+
+      - **Part One. TRUE HACKERS**
+
+  </div>
+
+  <div class="flex-col-25 centered">
+    <img src="static/img/hackers-heroes.jpg">
+  </div>
+
+  </div>
+
+  ## Reflection
+
+  As mentioned above, you will have to write a **reflection** regarding the
+  week's reading. For this course, the reading responses are due by **noon** on
+  **Saturday** at the end of the week, after we have discussed the material and
+  explored the related technologies in class. The responses are meant to be a
+  **reflection** on the week's activities.
+
+  For this upcoming week, you are to consider the following questions as you
+  explore the origins of [hacker culture], learn about the [hacker ethic], and
+  delve into the meaning of a "True Hacker":
+
+  > 1. What exactly constitutes a "True Hacker" according to Steven Levy?
+  > 2. What are some examples from the book regarding the qualities of a "True Hacker"?
+  > 3. How does the portrayal of a "True Hacker" compare and contrast with your
+  > previous understanding of a "hacker"?
+  > 4. What is your personal reaction to the idea of a "True Hacker": do you find
+  > the concept as inspirational? intimidating? repulsive?
+
+  Note, you should not simply list the questions and answer each one directly.
+  Instead, the questions are there to help you **brainstorm** and **reflect**
+  about the question:
+
+  > What does it mean to be a "true hacker"?  Do you aspire to be one?  Why or
+  why not?
+
+  Your individual reflection should ultimately answer this question.
+
+  [hacker culture]: https://en.wikipedia.org/wiki/Hacker_culture
+  [hacker ethic]:   https://en.wikipedia.org/wiki/Hacker_ethic
+
+  <div class="alert success-bg" markdown="1">
+  ### <i class="icon icon-medium">{{ "scale-balance" | embed_icon }}</i> Grading
+
+  Each reflection should be between **500** - **1000** words.  Each post will be
+  graded in terms of:<br><br>
+
+  - Was the post submitted on time?
+
+  - Does the post adequately address the prompt?
+
+  - Does the post reference the readings, class discussions, and weekly
+    activities to support the writing?
+
+  - Does the post exhibit thoughtfulness and creative expression?
+
+  - Does the post utilize proper grammar and style?
+
+  </div>
+
+  To create a blog, you may use whatever platform or service you wish.  You
+  will be using this blog to post your reflections throughout the semester.
+  Here are some possible services you can use:
+
+  1. [Notre Dame Sites](https://sites.nd.edu/)
+
+  2. [Wordpress](https://www.wordpress.com)
+
+  3. [Blogger](https://www.blogger.com)
+
+  4. [Medium](https://www.medium.com)
+
+  Of course, you are free to write your own blog software or host it anywhere
+  you wish.
+
+  <div class="alert warning-bg" markdown="1">
+  ### <i class="icon icon-medium">{{ "post" | embed_icon }}</i> Post Titles
+
+  To make it easier to grade, please **prefix** each blog post **title** with
+  the corresponding assignment.  For instance, for this reading assignment,
+  your blog post can be entitled **"Reading 01"** or something creative like
+  **"Reading 01: I Hack, Therefore I Am"**.
+
+  </div>
+
+  ## Submission
+
+  Once you have setup your blog, please fill out the following
+  [form](https://docs.google.com/forms/d/e/1FAIpQLSdR9jZIxD265l1r86BwfiXAyBmU1v8Z3BDTxej-dG_8cKqQaw/viewform?usp=sharing&ouid=105807145945519654952) to let us know where to find
+  it:
+
+  <div class="centered">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdR9jZIxD265l1r86BwfiXAyBmU1v8Z3BDTxej-dG_8cKqQaw/viewform?embedded=true" width="800" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+
+  <div class="alert warning-bg" markdown="1">
+  ### <i class="icon icon-medium">{{ "alert" | embed_icon }}</i> Notre Dame Login
+
+  To view and submit the form below, you need to be logged into your Notre Dame
+  Google account.  The easiest way to do this is to login to
+  [gmail.nd.edu](https://gmail.nd.edu) and then visit this page in the same
+  browser session.
+
+  </div>
