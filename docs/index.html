@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="static/ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="static/ico/favicon-16x16.png">
+<link rel="manifest" href="static/ico/site.webmanifest">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="static/css/pnutzh4x0r.css">
+<title>CSE 40842 Hackers in the Bazaar (Fall 2025)</title>
+</head>
+<body>
+<header>
+<a class="logo" href="index.html">
+    <h1>Hackers in the Bazaar</h1>
+</a>
+<nav>
+    <ul>
+        <li><a href="#logistics"><h4>Logistics</h4></a></li>
+        <li><a href="#schedule"><h4>Schedule</h4></a></li>
+        <li><a href="#policies"><h4>Policies</h4></a></li>
+        <li><a href="#resources"><h4>Resources</h4></a></li>
+        </ul>
+</nav></header>
+<main>
+<div class="flex-row">
+<div class="flex-col">
+<p><strong>CSE 40842</strong> is a <a href="http://cse.nd.edu">Computer Science and Engineering</a> elective course at
+the <a href="http://www.nd.edu">University of Notre Dame</a> that explores the idea of a "hacker" and the
+practice of participating in the open source "bazaar". To examine the
+history and culture of hackers, we will read, discuss, and reflect on books
+such as <a href="https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution">Hackers: Heroes of the Computer Revolution</a>, <a href="https://en.wikipedia.org/wiki/Hackers_%26_Painters">Hackers &amp; Painters</a>,
+<a href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">The Cathedral and the Bazaar</a>, and <a href="https://en.wikipedia.org/wiki/Just_for_Fun">Just For Fun</a>.  Additionally, students
+will apply the ideas and concepts explored in these books by contributing
+to different open source projects.  Finally, students will develop projects
+of their own design by employing the open source development methodology.</p>
+<p>Upon successful completion of this course, students will be able to:</p>
+<ol>
+<li>
+<p><strong>Discuss</strong> the history and impact of the <a href="https://en.wikipedia.org/wiki/Hacker_culture">Hacker Culture</a> and <a href="https://en.wikipedia.org/wiki/Hacker_ethic">Hacker
+Ethic</a> on the technology community.</p>
+</li>
+<li>
+<p><strong>Contribute</strong> to open source projects in a productive and effective
+manner.</p>
+</li>
+<li>
+<p><strong>Construct</strong> software artifacts in a collaborate group environment.</p>
+</li>
+<li>
+<p><strong>Communicate</strong> technical ideas and concepts to a public audience.</p>
+</li>
+</ol>
+</div>
+<div class="flex-col-25 centered">
+<p><img src="static/img/books.jpg"></p>
+</div>
+</div>
+<h2 id="logistics">Logistics<a class="headerlink" href="#logistics" title="Permanent link">&para;</a></h2>
+<div class="flex-row">
+<div class="flex-col">
+<h3 id="class-information">Class Information<a class="headerlink" href="#class-information" title="Permanent link">&para;</a></h3>
+<dl>
+<dt><i class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>calendar-clock</title><path d="M15,13H16.5V15.82L18.94,17.23L18.19,18.53L15,16.69V13M19,8H5V19H9.67C9.24,18.09 9,17.07 9,16A7,7 0 0,1 16,9C17.07,9 18.09,9.24 19,9.67V8M5,21C3.89,21 3,20.1 3,19V5C3,3.89 3.89,3 5,3H6V1H8V3H16V1H18V3H19A2,2 0 0,1 21,5V11.1C22.24,12.36 23,14.09 23,16A7,7 0 0,1 16,23C14.09,23 12.36,22.24 11.1,21H5M16,11.15A4.85,4.85 0 0,0 11.15,16C11.15,18.68 13.32,20.85 16,20.85A4.85,4.85 0 0,0 20.85,16C20.85,13.32 18.68,11.15 16,11.15Z" /></svg>
+</i> Date/Time</dt>
+<dd><strong>T/TH</strong> 11:00 AM - 12:15 PM</dd>
+<dt><i class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>map-marker</title><path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" /></svg>
+</i> Location</dt>
+<dd><strong>102</strong> Pasquerilla Center</dd>
+<dt><i class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>email</title><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
+</i> Mailing List</dt>
+<dd><a href="mailto:fa25-cse-40842-01-group@nd.edu">fa25-cse-40842-01-group@nd.edu</a></dd>
+<dt><i class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>slack</title><path d="M6,15A2,2 0 0,1 4,17A2,2 0 0,1 2,15A2,2 0 0,1 4,13H6V15M7,15A2,2 0 0,1 9,13A2,2 0 0,1 11,15V20A2,2 0 0,1 9,22A2,2 0 0,1 7,20V15M9,7A2,2 0 0,1 7,5A2,2 0 0,1 9,3A2,2 0 0,1 11,5V7H9M9,8A2,2 0 0,1 11,10A2,2 0 0,1 9,12H4A2,2 0 0,1 2,10A2,2 0 0,1 4,8H9M17,10A2,2 0 0,1 19,8A2,2 0 0,1 21,10A2,2 0 0,1 19,12H17V10M16,10A2,2 0 0,1 14,12A2,2 0 0,1 12,10V5A2,2 0 0,1 14,3A2,2 0 0,1 16,5V10M14,18A2,2 0 0,1 16,20A2,2 0 0,1 14,22A2,2 0 0,1 12,20V18H14M14,17A2,2 0 0,1 12,15A2,2 0 0,1 14,13H19A2,2 0 0,1 21,15A2,2 0 0,1 19,17H14Z" /></svg>
+</i> Slack</dt>
+<dd><a href="https://nd-cse.slack.com/messages/cse-40842-fa25">#cse-40842-fa25</a></dd>
+<dt><i class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>github</title><path d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" /></svg>
+</i> GitHub</dt>
+<dd><a href="https://github.com/nd-cse-40842-fa25">nd-cse-40842-fa25</a></dd>
+</dl>
+</div>
+<div class="flex-col">
+<h3 id="course-staff">Course Staff<a class="headerlink" href="#course-staff" title="Permanent link">&para;</a></h3>
+<dl>
+<dt><i class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>human-male-board</title><path d="M20,17A2,2 0 0,0 22,15V4A2,2 0 0,0 20,2H9.46C9.81,2.61 10,3.3 10,4H20V15H11V17M15,7V9H9V22H7V16H5V22H3V14H1.5V9A2,2 0 0,1 3.5,7H15M8,4A2,2 0 0,1 6,6A2,2 0 0,1 4,4A2,2 0 0,1 6,2A2,2 0 0,1 8,4Z" /></svg>
+</i> Instructor</dt>
+<dd>Peter Bui (<a href="mailto:pbui@nd.edu">pbui@nd.edu</a>)</dd>
+<dt><i class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>calendar-question</title><path d="M6,1V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3H18V1H16V3H8V1H6M5,8H19V19H5V8M12.19,9C11.32,9 10.62,9.2 10.08,9.59C9.56,10 9.3,10.57 9.31,11.36L9.32,11.39H11.25C11.26,11.09 11.35,10.86 11.53,10.7C11.71,10.55 11.93,10.47 12.19,10.47C12.5,10.47 12.76,10.57 12.94,10.75C13.12,10.94 13.2,11.2 13.2,11.5C13.2,11.82 13.13,12.09 12.97,12.32C12.83,12.55 12.62,12.75 12.36,12.91C11.85,13.25 11.5,13.55 11.31,13.82C11.11,14.08 11,14.5 11,15H13C13,14.69 13.04,14.44 13.13,14.26C13.22,14.08 13.39,13.9 13.64,13.74C14.09,13.5 14.46,13.21 14.75,12.81C15.04,12.41 15.19,12 15.19,11.5C15.19,10.74 14.92,10.13 14.38,9.68C13.85,9.23 13.12,9 12.19,9M11,16V18H13V16H11Z" /></svg>
+</i> Office Hours</dt>
+<dd><strong>M/T/W/TH/F</strong> 1:30 PM - 3:00 PM</dd>
+</dl>
+</div>
+</div>
+<h2 id="schedule">Schedule<a class="headerlink" href="#schedule" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+  <tr>
+    <th>Date</th>
+    <th>Topics</th>
+    <th>Assignments</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="3" class="unit">Book 01: Hackers - Heroes of the Computer Revolution</td>
+</tr>
+<tr>
+  <td class="date">Tue 08/26</td>
+  <td class="topics">
+    Syllabus, Logistics
+      </td>
+  <td class="assignments">
+            <a class="badge info-btn" href="reading01.html">
+  Reading 01
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 08/27</td>
+  <td class="topics">
+    Cambridge: The Fifties and Sixties
+      </td>
+  <td class="assignments">
+    </td>
+</tr>
+<tr>
+  <td class="date">Sun 08/31</td>
+  <td class="topics">
+    <i class="muted">Individual Reflection</i>
+      </td>
+  <td class="assignments">
+            <a class="badge primary-btn" href="writing01.html">
+  Writing 01
+  </a>
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+  <td class="date">Tue 09/02</td>
+  <td class="topics">
+    Northern California: The Seventies
+      </td>
+  <td class="assignments">
+            <a class="badge info-btn" href="reading02.html">
+  Reading 02
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 09/04</td>
+  <td class="topics">
+    <i class="muted">Presentations</i>
+      </td>
+  <td class="assignments">
+            <a class="badge caution-btn" href="proposal01.html">
+  Proposal 01
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Sun 09/07</td>
+  <td class="topics">
+    <i class="muted">Individual Reflection</i>
+      </td>
+  <td class="assignments">
+            <a class="badge primary-btn" href="writing02.html">
+  Writing 02
+  </a>
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+  <td class="date">Tue 09/09</td>
+  <td class="topics">
+    The Sierras: The Eighties
+      </td>
+  <td class="assignments">
+            <a class="badge info-btn" href="reading03.html">
+  Reading 03
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 09/11</td>
+  <td class="topics">
+    <i class="muted">Presentations</i>
+      </td>
+  <td class="assignments">
+            <a class="badge caution-btn" href="progress01.html">
+  Progress 01
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Sun 09/14</td>
+  <td class="topics">
+    <i class="muted">Individual Reflection</i>
+      </td>
+  <td class="assignments">
+            <a class="badge primary-btn" href="writing03.html">
+  Writing 03
+  </a>
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+  <td class="date">Tue 09/16</td>
+  <td class="topics">
+    <i class="muted">Hackathon</i>
+      </td>
+  <td class="assignments">
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 09/18</td>
+  <td class="topics">
+    <i class="muted">Presentations</i>
+      </td>
+  <td class="assignments">
+            <a class="badge caution-btn" href="project01.html">
+  Project 01
+  </a>
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="3" class="unit">Book 02: Hackers and Painters</td>
+</tr>
+<tr>
+  <td class="date">Tue 09/23</td>
+  <td class="topics">
+    Why Nerds Are Unpopular, Hackers and Painters, Good Bad Attitude, What You Can't Say
+      </td>
+  <td class="assignments">
+            <a class="badge info-btn" href="reading04.html">
+  Reading 04
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 09/25</td>
+  <td class="topics">
+    <i class="muted">Presentations</i>
+      </td>
+  <td class="assignments">
+    </td>
+</tr>
+<tr>
+  <td class="date">Sun 09/28</td>
+  <td class="topics">
+    <i class="muted">Individual Reflection</i>
+      </td>
+  <td class="assignments">
+            <a class="badge primary-btn" href="writing04.html">
+  Writing 04
+  </a>
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+  <td class="date">Tue 09/30</td>
+  <td class="topics">
+    Beating the Averages, The Hundred-Year Language, Revenge of the Nerd, The Python Paradox
+      </td>
+  <td class="assignments">
+            <a class="badge info-btn" href="reading05.html">
+  Reading 05
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 10/02</td>
+  <td class="topics">
+    <i class="muted">Presentations</i>
+      </td>
+  <td class="assignments">
+            <a class="badge caution-btn" href="proposal02.html">
+  Proposal 02
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Sun 10/05</td>
+  <td class="topics">
+    <i class="muted">Individual Reflection</i>
+      </td>
+  <td class="assignments">
+            <a class="badge primary-btn" href="writing05.html">
+  Writing 05
+  </a>
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+  <td class="date">Tue 10/07</td>
+  <td class="topics">
+    How To Make Wealth, The Right Kind of Stubborn, When To Do What You Love
+      </td>
+  <td class="assignments">
+            <a class="badge info-btn" href="reading06.html">
+  Reading 06
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 10/09</td>
+  <td class="topics">
+    <i class="muted">Presentations</i>
+      </td>
+  <td class="assignments">
+            <a class="badge caution-btn" href="progress02.html">
+  Progress 02
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Sun 10/12</td>
+  <td class="topics">
+    <i class="muted">Individual Reflection</i>
+      </td>
+  <td class="assignments">
+            <a class="badge primary-btn" href="writing05.html">
+  Writing 05
+  </a>
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+  <td class="date">Tue 10/14</td>
+  <td class="topics">
+    <i class="muted">Hackathon</i>
+      </td>
+  <td class="assignments">
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 10/16</td>
+  <td class="topics">
+    <i class="muted">Presentations</i>
+      </td>
+  <td class="assignments">
+            <a class="badge caution-btn" href="project02.html">
+  Project 02
+  </a>
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="3" class="unit"><i class="muted">Fall Break</i></td>
+</tr>
+<tr>
+<td colspan="3" class="unit">Book 03: The Cathedral and The Bazaar</td>
+</tr>
+<tr>
+  <td class="date">Tue 10/28</td>
+  <td class="topics">
+    A Brief History of Hackerdom, The Cathedral and The Bazaar
+      </td>
+  <td class="assignments">
+            <a class="badge info-btn" href="reading07.html">
+  Reading 07
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 10/30</td>
+  <td class="topics">
+    <i class="muted">Presentations</i>
+      </td>
+  <td class="assignments">
+    </td>
+</tr>
+<tr>
+  <td class="date">Sun 11/02</td>
+  <td class="topics">
+    <i class="muted">Individual Reflection</i>
+      </td>
+  <td class="assignments">
+            <a class="badge primary-btn" href="writing07.html">
+  Writing 07
+  </a>
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+  <td class="date">Tue 11/04</td>
+  <td class="topics">
+    Homesteading the Noosphere, The Magic Cauldron
+      </td>
+  <td class="assignments">
+            <a class="badge info-btn" href="reading08.html">
+  Reading 08
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 11/06</td>
+  <td class="topics">
+    <i class="muted">Presentations</i>
+      </td>
+  <td class="assignments">
+            <a class="badge caution-btn" href="proposal03.html">
+  Proposal 03
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Sun 11/09</td>
+  <td class="topics">
+    <i class="muted">Individual Reflection</i>
+      </td>
+  <td class="assignments">
+            <a class="badge primary-btn" href="writing08.html">
+  Writing 08
+  </a>
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="3" class="unit">Book 04: Just for Fun</td>
+</tr>
+<tr>
+  <td class="date">Tue 11/11</td>
+  <td class="topics">
+    Birth of a Nerd, Birth of an Operating System
+      </td>
+  <td class="assignments">
+            <a class="badge info-btn" href="reading09.html">
+  Reading 09
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 11/13</td>
+  <td class="topics">
+    <i class="muted">Presentations</i>
+      </td>
+  <td class="assignments">
+    </td>
+</tr>
+<tr>
+  <td class="date">Sun 11/16</td>
+  <td class="topics">
+    <i class="muted">Individual Reflection</i>
+      </td>
+  <td class="assignments">
+            <a class="badge primary-btn" href="writing09.html">
+  Writing 09
+  </a>
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+  <td class="date">Tue 11/18</td>
+  <td class="topics">
+    King of the Ball
+      </td>
+  <td class="assignments">
+            <a class="badge info-btn" href="reading10.html">
+  Reading 10
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 11/20</td>
+  <td class="topics">
+    <i class="muted">Presentations</i>
+      </td>
+  <td class="assignments">
+            <a class="badge caution-btn" href="progress03.html">
+  Progress 03
+  </a>
+    </td>
+</tr>
+<tr>
+  <td class="date">Sun 11/23</td>
+  <td class="topics">
+    <i class="muted">Individual Reflection</i>
+      </td>
+  <td class="assignments">
+            <a class="badge primary-btn" href="writing10.html">
+  Writing 10
+  </a>
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+  <td class="date">Tue 11/25</td>
+  <td class="topics">
+    Revolution OS
+      </td>
+  <td class="assignments">
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 11/27</td>
+  <td class="topics">
+    Thanksgiving
+      </td>
+  <td class="assignments">
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+  <td class="date">Tue 12/02</td>
+  <td class="topics">
+    <i class="muted">Hackathon</i>
+      </td>
+  <td class="assignments">
+    </td>
+</tr>
+<tr>
+  <td class="date">Thu 12/04</td>
+  <td class="topics">
+    <i class="muted">Presentations</i>
+      </td>
+  <td class="assignments">
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+<tr>
+  <td class="date">Tue 12/09</td>
+  <td class="topics">
+    <i class="muted">Presentations</i>
+      </td>
+  <td class="assignments">
+            <a class="badge caution-btn" href="project03.html">
+  Project 03
+  </a>
+    </td>
+</tr>
+<tr>
+<td colspan="3" class="week">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+
+<div class="alert info-bg">
+<h3 id="calendar-check-embed_icon-due-dates"><i class="icon icon-medium"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>calendar-check</title><path d="M19,19H5V8H19M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M16.53,11.06L15.47,10L10.59,14.88L8.47,12.76L7.41,13.82L10.59,17L16.53,11.06Z" /></svg>
+</i> Due Dates<a class="headerlink" href="#calendar-check-embed_icon-due-dates" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>All <strong>Writings</strong> are due at <strong>midnight Sunday</strong> of the assigned week.</p>
+</li>
+<li>
+<p>All <strong>Proposals</strong> and <strong>Progress Reports</strong> are due at <strong>midnight
+  Thursday</strong> of the assigned week.</p>
+</li>
+<li>
+<p>All <strong>Projects</strong> aure due when they are <strong>presented</strong> in class.</p>
+</li>
+</ul>
+</div>
+<h2 id="policies">Policies<a class="headerlink" href="#policies" title="Permanent link">&para;</a></h2>
+<div class="flex-row">
+<div class="flex-col">
+<h3 id="coursework">Coursework<a class="headerlink" href="#coursework" title="Permanent link">&para;</a></h3>
+<table class="bordered">
+<thead>
+    <th>Component</th>
+    <th>Description</th>
+    <th>Points</th>
+  </thead>
+<tbody>
+    <tr class="info-bg">
+      <td class="centered"><span class="badge primary-btn">Writings</span></td>
+      <td>Weekly reading and writing individual assignments.</td>
+      <td class="centered">10 &times; 6</td>
+    </tr>
+    <tr class="caution-bg">
+      <td class="centered"><span class="badge caution-btn">Projects</span></td>
+      <td>Collaborative group projects.</td>
+      <td class="centered">45, 45, 60</td>
+    </tr>
+    <tr class="danger-bg">
+      <td class="centered"><span class="badge danger-btn">Presentations</span></td>
+      <td>Individual special interest presentations.</td>
+      <td class="centered">2 &times; 30</td>
+    </tr>
+    <tr class="warning-bg">
+      <td class="centered"><span class="badge warning-btn">Participation</span></td>
+      <td>Regular class attendance and contribution to class community.</td>
+      <td class="centered">30</td>
+    </tr>
+    <tr class="success-bg">
+      <td class="centered" style="font-weight: bold;">Total</td>
+      <td></td>
+      <td class="centered" style="font-weight: bold;">300</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="flex-col">
+<h3 id="grading">Grading<a class="headerlink" href="#grading" title="Permanent link">&para;</a></h3>
+<table class="bordered">
+<thead>
+    <th>Grade</th>
+    <th>Points</th>
+    <th>Grade</th>
+    <th>Points</th>
+    <th>Grade</th>
+    <th>Points</th>
+  </thead>
+<tbody>
+    <tr class="centered success-bg">
+      <td></td>
+      <td></td>
+      <td style="font-weight: bold;">A</td>
+      <td>300 - 285</td>
+      <td style="font-weight: bold;">A-</td>
+      <td>285 - 270</td>
+    </tr>
+    <tr class="centered info-bg">
+      <td style="font-weight: bold;">B+</td>
+      <td>270 - 260</td>
+      <td style="font-weight: bold;">B</td>
+      <td>260 - 250</td>
+      <td style="font-weight: bold;">B-</td>
+      <td>250 - 240</td>
+    </tr>
+    <tr class="centered caution-bg">
+      <td style="font-weight: bold;">C+</td>
+      <td>240 - 230</td>
+      <td style="font-weight: bold;">C</td>
+      <td>230 - 220</td>
+      <td style="font-weight: bold;">C-</td>
+      <td>220 - 210</td>
+    </tr>
+    <tr class="centered danger-bg">
+      <td style="font-weight: bold;">D&nbsp;</td>
+      <td>210 - 200</td>
+      <td style="font-weight: bold;">F</td>
+      <td>200 - 0&nbsp;&nbsp;</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div class="flex-row">
+<div class="flex-col">
+<h3 id="participation">Participation<a class="headerlink" href="#participation" title="Permanent link">&para;</a></h3>
+<p>Students are expected to <strong>attend</strong> lecture and <strong>participate</strong> regularly
+during class by answering questions, contributing to discussions, and
+helping other students.</p>
+<p>Foreseeable absences should be discussed with the instructor ahead of time.</p>
+</div>
+<div class="flex-col">
+<h3 id="community">Community<a class="headerlink" href="#community" title="Permanent link">&para;</a></h3>
+<p>Recalling one of the tenets of the <a href="https://en.wikipedia.org/wiki/Hacker_ethic">Hacker Ethic</a>:</p>
+<blockquote>
+<p>Hackers should be judged by their hacking, not criteria such as degrees,
+age, race, sex, or position.</p>
+</blockquote>
+<p>Students are expected to be <strong>respectful</strong> to their fellow classmates and
+the course staff.</p>
+</div>
+</div>
+<div class="flex-row">
+<div class="flex-col">
+<h3 id="students-with-disabilities">Students with Disabilities<a class="headerlink" href="#students-with-disabilities" title="Permanent link">&para;</a></h3>
+<p>Any student who has a documented disability and is registered with <a href="https://supportandcare.nd.edu/for-students/current-students/accessibility-support/">Sara
+Bea Accessibility Services</a> should speak with the professor as soon as
+possible regarding accommodations. Students who are not registered should
+contact the <a href="https://supportandcare.nd.edu/">Center for Student Support and Care</a>.</p>
+</div>
+<div class="flex-col">
+<h3 id="late-work">Late Work<a class="headerlink" href="#late-work" title="Permanent link">&para;</a></h3>
+<p>In the case of a serious illness or other excused absence, as defined by
+university policies, coursework will be accepted late by the same number of
+days as the excused absence.</p>
+<p>Otherwise, there is an automatic <strong>25% late penalty</strong> for submissions
+turned in <strong>12 hours</strong> past the <strong>posted deadline</strong>.</p>
+<p>No assignments will be accepted after the <strong>last day of class</strong> without the
+permission of the instructor.</p>
+</div>
+</div>
+<div class="flex-row">
+<div class="flex-col">
+<h3 id="blog">Blog<a class="headerlink" href="#blog" title="Permanent link">&para;</a></h3>
+<p>All <strong>Writing</strong> responses to the <strong>Readings</strong> should be posted to each
+student's individual blog. Choice of blog platform is up to each student,
+but the student must provide a valid <strong>RSS</strong> or <strong>ATOM</strong> feed to their blog
+at the beginning of the semester for easy syndication and monitoring.</p>
+</div>
+<div class="flex-col">
+<h3 id="academic-dishonesty">Academic Dishonesty<a class="headerlink" href="#academic-dishonesty" title="Permanent link">&para;</a></h3>
+<p>All work that you submit must be your own. Collaboration is encouraged but
+must be disclosed by all parties. Print or online resources are allowed,
+but must be disclosed. However, you may not look at solutions from other
+current or past students, or any other source.</p>
+<p>Moreover, the use of <strong>AI Tools</strong> to generate blog posts for the
+<strong>Writing</strong> assignments or slides for the <strong>Individual Presentations</strong> is
+not allowed.  However, you may use <strong>AI Tools</strong> to build or develop your
+<strong>Project</strong> artifacts (ie. software).</p>
+</div>
+</div>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
+<p>We will be reading the following books this semester:</p>
+<div class="flex-row">
+<div class="flex-col">
+<div class="flex-row">
+<div class="flex-col">
+<div class="centered">
+  <img src="static/img/hackers-heroes.jpg">
+  </div>
+</div>
+<div class="flex-col">
+<dl>
+<dt>Title</dt>
+<dd>Hackers: Heroes of the Computer Revolution</dd>
+<dt>Authors</dt>
+<dd>Steven Levy</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="flex-col">
+<div class="flex-row">
+<div class="flex-col">
+<div class="centered">
+  <img src="static/img/hackers-painters.jpg">
+  </div>
+</div>
+<div class="flex-col">
+<dl>
+<dt>Title</dt>
+<dd>Hackers and Painters: Big Ideas from the Computer Age</dd>
+<dt>Authors</dt>
+<dd>Paul Graham</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+<div class="flex-row">
+<div class="flex-col">
+<div class="flex-row">
+<div class="flex-col">
+<div class="centered">
+    <img src="static/img/cathedral.jpg">
+  </div>
+</div>
+<div class="flex-col">
+<dl>
+<dt>Title</dt>
+<dd>The Cathedral &amp; the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary</dd>
+<dt>Authors</dt>
+<dd>Eric Raymond</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="flex-col">
+<div class="flex-row">
+<div class="flex-col">
+<div class="centered">
+    <img src="static/img/justforfun.jpg">
+  </div>
+</div>
+<div class="flex-col">
+<dl>
+<dt>Title</dt>
+<dd>Just For Fun: The Story of an Accidental Revolutionary</dd>
+<dt>Authors</dt>
+<dd>Linus Torvalds and David Diamond</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer>
+Built using <a href="https://python.org">Python</a>
+and <a href="https://jinja.palletsprojects.com">Jinja</a>
+with colors from <a href="https://nordtheme.com">Nord Theme</a>
+and icons from <a href="https://pictogrammers.com/library/mdi/">Material Design Icons</a>.</footer>
+</body>
+</html>
