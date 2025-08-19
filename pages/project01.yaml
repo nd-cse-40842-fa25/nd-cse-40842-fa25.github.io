@@ -1,0 +1,348 @@
+title:      "Project 01: Retro Computing"
+navigation:
+  - name:   Home
+    link:   index.html
+body:       |
+
+  **Everyone**:
+
+  The first book of the semester, [Hackers: Heroes of the Computer Revolution],
+  examines the origin of [Hackers] and their associated culture and philosophy.
+  In doing so, the book recounts elements of computing history that many
+  students may be unfamiliar with.
+
+  For the first project, you are to work in groups of **2 - 3** students to
+  modify or re-create a computing artifact from the past that runs in a
+  **resource constrained environment**. What this means is that the software
+  you develop should run in an environment with **low resources** (CPU, memory,
+  disk, etc.) such as an [Arduino], a [Raspberry Pi], or an [emulator] such as
+  [DOSBox].
+
+  In addition to creating a software or hardware artifact, students must also
+  provide a presentation on the background or context of their chosen
+  historical artifact and its significance in computing history.
+
+  ## Requirements
+
+  Working in groups of **2 - 3**, students must create a software or hardware
+  artifact that meets the following requirements:
+
+  1. The artifact is grounded in some element of computing history.
+
+  2. The artifact is interactive and is capable of being manipulated by a user
+  via some sort of input device.
+
+  3. The artifact should run in a resource constrained environment.
+
+  4. The source code is stored on an online repository such as [GitHub],
+  [GitLab], or [Codeberg].
+
+  5. The project includes sufficient documentation to build, deploy, and use
+  the artifact.
+
+  6. The project `README.md` must explain the project and its context in terms
+  of computing history and the importance of the historical artifact (between
+  **250** - **500** words).
+
+  <div class="alert warning-bg" markdown="1">
+
+  ### <i class="icon icon-medium">{{ "history" | embed_icon }}</i> Keeping it Old School
+
+  Because the purpose of the project is to provide you an opportunity to
+  experience what it was like to program on old (ie. resource constrained)
+  computing system, you should avoid using modern programming languages and
+  libraries such as [Python] and [PyGame]. Instead, you should focus on [C],
+  [C++], [Scheme], [LISP], or even [assembly] and render your graphics
+  directly.
+
+  That said, the artifact, platform, and tools is mostly up to you; use this
+  opportunity to explore something interesting to you.
+
+  If in doubt, ask the instructor if you can utilize a particular tool or
+  library.
+
+  </div>
+
+  ## Ideas
+
+  Here is a list of possible project ideas:
+
+  1. Write a text-based MUD such as [Zork], [Adventure], [NetHack], or [Rogue].
+
+  2. Compose a musical and graphical demo akin to the [Commodore 64 demos].
+
+  3. Program a game in [QBasic] such as [Nibbles] or [Gorillas].
+
+  4. Prototype an interpreter for [LISP], [FORTH], or [BASIC].
+
+  5. Re-create a classic game such [SpaceWar!], [Pac-Man], [Breakout], [Frogger].
+
+  6. Develop a machine emulator for the [Z80], [8086], or [M68K].
+
+  7. Create a telnet [BBS] system such as [Community Memory], [PLATO], or [CBBS].
+
+  8. Construct a chat bot like [ELIZA].
+
+  9. Mod an old game like [Doom].
+
+  10. Write a program that generates/plays music (ala [Samson] or Dompier) (perhaps using [MIDI]).
+
+  11. Develop a game an [Arduino] kit such as the [Arduboy].
+
+  12. Write some **obfuscated code** ala [IOCCC].
+
+  13. Produce a [coding quine].
+
+  14. Animate a short visualization or story using low-level graphics primitives.
+
+  15. Write an **Albacore** simulator or assembler.
+
+  <div class="alert info-bg" markdown="1">
+  ### <i class="icon icon-medium">{{ "code-tags" | embed_icon }}</i> MVP
+
+  Because of the short time-frame, it is not expected that your artifact be
+  polished or feature complete.  Instead, it should be more along the lines of
+  a prototype or [MVP] (e.g. a cool [hack]).
+
+  </div>
+
+  ## Timeline
+
+  Here is the project timeline:
+
+  <table class="bordered">
+  <thead>
+    <th>Date</th>
+    <th>Milestone</th>
+    <th>Description</th>
+  </thead>
+  <tbody>
+    <tr class="success-bg">
+      <td class="text-strong">Thursday, September 04</td>
+      <td>Proposal</td>
+      <td>Description of proposed project.</td>
+    </tr>
+    <tr class="caution-bg">
+      <td class="text-strong">Thursday, September 11</td>
+      <td>Progress</td>
+      <td>Status report of current progress.</td>
+    </tr>
+    <tr class="warning-bg">
+      <td class="text-strong">Tuesday, September 16</td>
+      <td>Hackathon</td>
+      <td>Group work period.</td>
+    </tr>
+    <tr class="danger-bg">
+      <td class="text-strong">Thursday, September 18</td>
+      <td>Presentation</td>
+      <td>In-class presentations and demonstrations.</td>
+    </tr>
+  </tbody>
+  </table>
+
+  More details about each of these milestones is described below.
+
+  ### Proposal
+
+  Your group must submit a proposal document by **midnight Thursday, September
+  5**, which provides the following information:
+
+  1. Lists the group members and each of their proposed roles.
+
+  2. Describe the proposed project and how it meets the project requirements.
+
+  3. Enumerates any resources required.
+
+  <div class="alert success-bg" markdown="1">
+  ### <i class="icon icon-medium">{{ "cash" | embed_icon }}</i> Hardware Resources
+
+  If you need any hardware resources such as an [Arduboy] or a [Raspberry Pi],
+  please let the instructor know and he will see if he can procure your
+  requests. Please do this sooner rather than later.
+
+  </div>
+
+  ### Progress
+
+  Your group must submit a proposal **slide deck** (**5 - 8** slides) by
+  **midnight Thursday, September 11**, which provides the following
+  information:
+
+  1. Addresses the questions and expectations in feedback email provided
+  regarding the project proposal.
+
+  2. Summarizes the work done this far, in particular the design and
+  implementation details of your artifact.
+
+  3. Enumerates the remaining tasks, with specifics on what you plan on
+  accomplishing during the upcoming sprint week and what you realistically plan
+  on accomplishing before the deadline.
+
+  4. Itemize contributions to the project thus far and what how each member
+  will aid in completing the tasks above.
+
+  <div class="alert warning-bg" markdown="1">
+  If possible, provide **video** or **image** evidence of your project and your
+  progress.
+  </div>
+
+  ### Presentation
+
+  Because we are aiming for a [Homebrew Computer Club] style presentation, we
+  will basically organize a "science fair" style demonstration environment:
+
+  > Each group will setup a **booth** which will present information about
+  > their project and allow other students to interact with their artifact.
+  >
+  > During class, students will be allowed to visit other **booths** to try
+  > out the artifacts and to learn about the computing history involved with each project.
+
+  Think of it like a mini "science fair".  In addition to the interactive
+  artifact or demonstration, each group booth should also provide the following
+  information:
+
+  1. Explain the historical context and background of your artifact.
+
+  2. Describe the overall design and implementation of the artifact (and how
+  each person contributed), focusing on the key concepts and ideas.
+
+  3. Summarize what was accomplished and what was learned.
+
+  This information can be presented on a **poster** or as a slideshow on a
+  computer.
+
+  ## Rubric
+
+  The project will be graded with the following rubric:
+
+  <table class="bordered">
+  <thead>
+    <th>Metric</th>
+    <th>Points</th>
+    <th>Description</th>
+  </thead>
+  <tbody>
+  <tr class="success-bg">
+    <td class="text-strong">Proposal</td>
+    <td>5</td>
+    <td>Does the proposed project meet the requirements?</td>
+  </tr>
+  <tr class="caution-bg">
+    <td class="text-strong">Progress</td>
+    <td>10</td>
+    <td>How much work did the group do before the hackathon?</td>
+  </tr>
+  <tr class="warning-bg">
+    <td class="text-strong">Presentation</td>
+    <td>5</td>
+    <td>How well did the group present and demonstrate their artifact?</td>
+  </tr>
+  <tr class="warning-bg">
+    <td class="text-strong">Requirements</td>
+    <td>5</td>
+    <td>How well did the project meet the requirements?</td>
+  </tr>
+  <tr class="warning-bg">
+    <td class="text-strong">Technical Challenge</td>
+    <td>5</td>
+    <td>How difficult was the project?</td>
+  </tr>
+  <tr class="danger-bg">
+    <td class="text-strong">Execution</td>
+    <td>7.5</td>
+    <td>How complete was the project?</td>
+  </tr>
+  <tr class="danger-bg">
+    <td class="text-strong">User Experience</td>
+    <td>7.5</td>
+    <td>How enjoyable was project for end users?</td>
+  </tr>
+  </tbody>
+  </table>
+
+  <div class="alert danger-bg" markdown="1">
+  ### <i class="icon icon-medium">{{ "scale-balance" | embed_icon }}</i> Peer Evaluation
+
+  The first two metrics will be graded by the instructor, but the final five
+  metrics will be evaluated based on feedback from your fellow classmates.
+
+  </div>
+
+  <!--//
+  To evaluate your peers, use the following [form]():
+
+  <div class="text-center">
+  </div>
+  //-->
+
+  ## Deliverables
+
+  Once you have organized your group, please have one group member fill out the following [form](https://docs.google.com/forms/d/e/1FAIpQLSdBi4eBTx6e4-maLPEj7-NMNyowdUkEPdm8A_xGEjsU4WWP7g/viewform?usp=header):
+
+  <div class="centered">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdBi4eBTx6e4-maLPEj7-NMNyowdUkEPdm8A_xGEjsU4WWP7g/viewform?embedded=true" width="800" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+
+  <div class="alert info-bg" markdown="1">
+
+  ### <i class="icon icon-medium">{{ "share-variant" | embed_icon }}</i> Shared Google Drive Folder
+
+  **Note**, you will place your **Proposal**, **Progress Report**, and
+  **Presentation** in the **Google Drive** folder that you link in the form above.
+
+  Make sure you give the instructor **permissions** to view the contents of the
+  shared **Google Drive** folder.
+
+  </div>
+
+  [Hackers: Heroes of the Computer Revolution]: https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution
+
+  [Hackers]:    https://en.wikipedia.org/wiki/Hacker
+  [GitHub]:     https://github.com
+  [GitLab]:     https://gitlab.com
+  [Codeberg]:   https://codeberg.org/
+  [Zork]:       https://en.wikipedia.org/wiki/Zork
+  [Adventure]:  https://en.wikipedia.org/wiki/Adventure_(Atari_2600)
+  [NetHack]:    https://en.wikipedia.org/wiki/NetHack
+  [Rogue]:      https://en.wikipedia.org/wiki/Rogue_(video_game)
+  [QBasic]:     https://en.wikipedia.org/wiki/QBasic
+  [Nibbles]:    https://en.wikipedia.org/wiki/Nibbles_(video_game)
+  [Gorillas]:   https://en.wikipedia.org/wiki/Gorillas_(video_game)
+  [LISP]:       https://en.wikipedia.org/wiki/Lisp_(programming_language)
+  [FORTH]:      https://en.wikipedia.org/wiki/Forth_(programming_language)
+  [BASIC]:      https://en.wikipedia.org/wiki/BASIC
+  [DOS]:        https://en.wikipedia.org/wiki/DOS
+  [SpaceWar!]:  https://en.wikipedia.org/wiki/Spacewar!
+  [Pac-Man]:    https://en.wikipedia.org/wiki/Pac-Man
+  [Breakout]:   https://en.wikipedia.org/wiki/Breakout_(video_game)
+  [Frogger]:    https://en.wikipedia.org/wiki/Frogger
+  [Z80]:        https://en.wikipedia.org/wiki/Z80
+  [8086]:       https://en.wikipedia.org/wiki/Intel_8086
+  [M68K]:       https://en.wikipedia.org/wiki/Motorola_6800
+  [BBS]:        https://en.wikipedia.org/wiki/Bulletin_board_system
+  [PLATO]:      https://en.wikipedia.org/wiki/PLATO_(computer_system)
+  [CBBS]:       https://en.wikipedia.org/wiki/CBBS
+  [Doom]:       https://en.wikipedia.org/wiki/Doom_(series)
+  [Makerspace]: https://en.wikipedia.org/wiki/Hackerspace
+  [ELIZA]:      https://en.wikipedia.org/wiki/ELIZA
+  [Community Memory]: https://en.wikipedia.org/wiki/Community_Memory
+  [Samson]:     https://en.wikipedia.org/wiki/Peter_Samson
+  [Commodore 64 demos]: https://en.wikipedia.org/wiki/Commodore_64_demos
+  [MIDI]:       https://en.wikipedia.org/wiki/MIDI
+  [Arduino]:    https://www.arduino.cc/
+  [Arduboy]:    https://arduboy.com/
+  [Python]:     https://www.python.org/
+  [PyGame]:     http://www.pygame.org/
+  [C]:          https://en.wikipedia.org/wiki/The_C_Programming_Language
+  [C++]:        https://isocpp.org/
+  [Assembly]:   https://en.wikipedia.org/wiki/Assembly_language
+  [Raspberry Pi]: https://www.raspberrypi.org/
+  [emulator]:   https://en.wikipedia.org/wiki/Emulator
+  [DOSBox]:     https://www.dosbox.com/
+  [MVP]:        https://en.wikipedia.org/wiki/Minimum_viable_product
+  [hack]:       https://en.wikipedia.org/wiki/Kludge#Computer_science
+  [Homebrew Computer Club]:  https://en.wikipedia.org/wiki/Homebrew_Computer_Club
+  [Scheme]:     https://en.wikipedia.org/wiki/Scheme_(programming_language)
+  [LISP]:       https://en.wikipedia.org/wiki/Lisp_(programming_language)
+  [IOCCC]:      https://en.wikipedia.org/wiki/International_Obfuscated_C_Code_Contest
+  [coding quine]: https://en.wikipedia.org/wiki/Quine_%28computing%29
