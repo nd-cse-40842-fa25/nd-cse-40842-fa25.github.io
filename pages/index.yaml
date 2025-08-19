@@ -390,7 +390,7 @@ body:       |
     Authors
     : Steven Levy
     </div>
-    
+
     </div>
 
     </div>
@@ -412,15 +412,15 @@ body:       |
     Authors
     : Paul Graham
     </div>
-    
-    </div>
 
     </div>
 
     </div>
-        
+
+    </div>
+
     <div class="flex-row" markdown="1">
-    
+
     <div class="flex-col" markdown="1">
 
     <div class="flex-row" markdown="1">
@@ -438,11 +438,11 @@ body:       |
     Authors
     : Eric Raymond
     </div>
-    
+
     </div>
 
     </div>
-  
+
     <div class="flex-col" markdown="1">
 
     <div class="flex-row" markdown="1">
@@ -460,9 +460,9 @@ body:       |
     Authors
     : Linus Torvalds and David Diamond
     </div>
-      
+
     </div>
 
     </div>
-    
+
     </div>
