@@ -4,19 +4,27 @@ navigation:
     link:   index.html
 body:       |
 
-  ## Readings
-  
+  ## Reading
+
   <div class="flex-row" markdown="1">
-  
+
   <div class="flex-col" markdown="1">
 
   The readings for this week revolves around the origin of the personal
   computer and features the [Homebrew Computer Club], the [BASIC] programming
   language, and the [Woz].
 
-  1. [Hackers: Heroes of the Computer Revolution]
+  1.  <div class="flex-col">
+
+      [Hackers: Heroes of the Computer Revolution]
 
       - **Part Two. HARDWARE HACKERS**
+
+  The second part of [Hackers: Heroes of the Computer Revolution] is entitled
+    "Hardware Hackers" and discusses a second wave of hackers who sought to
+    "tak[e] the [Hacker Ethic] to the streets ... [and] promote a version of
+    the hacker dream that would ... spread the computer gospel through, all
+    things, the marketplace".
 
   </div>
 
@@ -27,12 +35,6 @@ body:       |
   </div>
 
   ## Reflection
-
-  The second part of [Hackers: Heroes of the Computer Revolution] is entitled
-  "Hardware Hackers" and discusses a second wave of hackers who sought to
-  "tak[e] the [Hacker Ethic] to the streets ... [and] promote a version of the
-  hacker dream that would ... spread the computer gospel through, all things,
-  the marketplace".
 
   For this upcoming week, you are to consider the following questions as you
   perform the readings and participate in class:
