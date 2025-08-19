@@ -1,0 +1,74 @@
+title:      "Reading 03: Game Hackers"
+navigation:
+  - name:   Home
+    link:   index.html
+body:       |
+
+  ## Reading
+
+  <div class="flex-row" markdown="1">
+
+  <div class="flex-col" markdown="1">
+
+  The readings for this week are:
+
+  1. [Hackers: Heroes of the Computer Revolution]
+
+      - **Part Three. GAME HACKERS**
+
+  The third part of [Hackers: Heroes of the Computer Revolution] is entitled
+  "Game Hackers" and discusses the third generation of hackers who "had learned
+  their programming artistry on small computers, ... [and] who dreamed not only
+  of the ultimate hack, but of fame, and big royalty checks."
+
+  </div>
+
+  <div class="flex-col-20 centered">
+    <img src="static/img/hackers-heroes.jpg">
+  </div>
+
+  </div>
+
+  ## Reflection
+
+  For this upcoming week, you are to consider the following questions as you
+  perform the readings and participate in class:
+
+  - With the rise of the "hotshot programmer" whose "consolation was money",
+    how do the "game hackers" compare and contrast from the previous two
+    generations?
+
+  - What do you make of the idea that "now that there was a marketplace, [and]
+    the real world had changed hackerism" to the point that [Ken Williams] "was
+    convinced that hackers should be stifled; what's needed is to guess what
+    the marketplace wants, access to distribution channels, money, gimmicks,
+    market promotion."?
+
+  -   <div class="flex-col">
+
+      Reflect on your thoughts regarding the following questions posed by
+      [Steven Levy] as "the Hacker Ethic ... met the marketplace":
+
+      - "Did you really benefit from your computer if you did not program it?"
+
+      - "Did the public benefit from one company 'owning' a piece of software
+        and preventing others from making it useful?"
+
+      - "Could they grab the ring and not be corrupted? Could whatever idealism
+        existed in their mission be preserved? Could the spirit of hackerism
+        survive the success of the software industry?"
+
+  Note, you should not simply list the questions and answer each one directly.
+  Instead, the questions are there to help you brainstorm about the question:
+
+  > Can the [Hacker Ethic] truly and fully survive in a world of commercial and
+  proprietary software?  Is it better to be a "professional programmer, ... the
+  goal-oriented ... responsible engineer" or is it better to be a programmer
+  with "love for [computing] in [your] heart" and "hacker perfectionism in
+  [your] soul"?
+
+  [Hackers: Heroes of the Computer Revolution]: https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution
+
+  [Hacker Ethic]: https://en.wikipedia.org/wiki/Hacker_ethic
+  [Ken Williams]: https://en.wikipedia.org/wiki/Ken_Williams_(game_developer)
+  [Steven Levy]: https://en.wikipedia.org/wiki/Steven_Levy
