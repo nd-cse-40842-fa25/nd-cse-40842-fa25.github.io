@@ -152,6 +152,32 @@ body:       |
 
   [Presentation Schedule]: https://docs.google.com/spreadsheets/d/1LV1VIHNt37qDnaJj5LwgpSwC4CmZGIEih4w0uHTZuao/edit?usp=sharing
 
+  ## Slack
+
+  For communication outside of our meeting time, we will be using Slack,
+  specifically the [#cse-40842-fa25] channel:
+
+  > [https://nd-cse.slack.com/messages/cse-40842-fa25/](https://nd-cse.slack.com/messages/cse-40842-fa25)
+
+  There is a [class mailing list], but most day-to-day communication
+  (*including office hours and homework help*) should take place on [Slack].
+
+  [class mailing list]: mailto:fa25-cse-40842-01-group@nd.edu
+  [#cse-40842-fa25]: https://nd-cse.slack.com/messages/cse-40842-fa25/
+  [Slack]: https://nd-cse.slack.com
+
+  <div class="alert caution-bg" markdown="1">
+
+  Be aware of the following:
+
+  - You will need to signup and create a [Slack] account if you don't already
+    have one.
+
+  - You can use the web interface or download the [Slack] desktop client
+    (*there are also mobile applications as well*).
+
+  </div>
+
   ## Reading
 
   <div class="flex-row" markdown="1">
