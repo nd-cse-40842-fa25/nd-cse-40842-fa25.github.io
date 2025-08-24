@@ -6,6 +6,11 @@
         topics:         Syllabus, Logistics
         assignments:
           - Reading 01
+        items:
+          - name:       Slides 00
+            link:       https://docs.google.com/presentation/d/1voVNL9GWx-o2acyOGSt512TuvHERTfRlW2KmVmlvLF8/edit?usp=sharing
+          - name:       Slides 01
+            link:       https://docs.google.com/presentation/d/1g7fiwVZskNQjOTNsX3GhJfq2x6ninr-UleR66IwuTko/edit?usp=sharing
 
       - date:           Thu 08/27
         topics:         "Cambridge: The Fifties and Sixties"
@@ -21,6 +26,9 @@
         topics:         "Northern California: The Seventies"
         assignments:
           - Reading 02
+        items:
+          - name:       Slides 02
+            link:       https://docs.google.com/presentation/d/1g7fiwVZskNQjOTNsX3GhJfq2x6ninr-UleR66IwuTko/edit?usp=sharing
 
       - date:           Thu 09/04
         topics:         Presentations
@@ -39,6 +47,9 @@
         topics:         "The Sierras: The Eighties"
         assignments:
           - Reading 03
+        items:
+          - name:       Slides 03
+            link:       https://docs.google.com/presentation/d/1ekmxNyuHx28HqIkxURWhiFV8kVjdG3-Xe1mOKhXds5A/edit?usp=sharing
 
       - date:           Thu 09/11
         topics:         Presentations
