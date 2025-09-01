@@ -20,6 +20,7 @@ import sys
 
 from typing import Callable, Iterator, Optional
 
+import csv
 import dateutil.parser
 import jinja2
 import markdown
@@ -78,7 +79,10 @@ class Page:
         for k, v in data['external'].items():
             data['sources'].append(v)
             with open(v) as stream:
-                data['external'][k] = yaml.safe_load(stream)
+                if v.endswith('.yaml'):
+                    data['external'][k] = yaml.safe_load(stream)
+                elif v.endswith('.csv'):
+                    data['external'][k] = list(csv.DictReader(stream))
 
         # Ensure internal page data exists
         if not 'internal' in data:
