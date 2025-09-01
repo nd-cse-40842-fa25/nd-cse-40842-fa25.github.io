@@ -1,0 +1,21 @@
+title:      Blogs
+external:
+    blogs:  data/blogs.csv
+body:       |
+
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: left;">NetID</th>
+          <th style="text-align: left;">URL</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for blog in page.external['blogs'] | sort(attribute='NetID') %}
+        <tr>
+          <td>{{ blog['NetID'] }}</td>
+          <td><a href="{{ blog['URL'] }}">{{ blog['URL'] }}</a></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
