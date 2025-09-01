@@ -1,0 +1,16 @@
+#!/bin/sh
+
+FEED_PATH=$(dirname $0)/../public/blogs.xml
+
+# Update planet
+
+if ./scripts/planet.py > ${FEED_PATH}.tmp; then
+    mv -f ${FEED_PATH}.tmp ${FEED_PATH}
+else
+    rm -f ${FEED_PATH}.tmp
+fi
+
+# Push FEED
+
+export SSH_AUTH_SOCK=/home/pbui/.ssh/agent
+make install
