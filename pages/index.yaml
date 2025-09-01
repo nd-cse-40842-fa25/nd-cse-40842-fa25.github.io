@@ -77,6 +77,9 @@ body:       |
     <i class="icon">{{ "github" | embed_icon }}</i> GitHub
     : [nd-cse-40842-fa25](https://github.com/nd-cse-40842-fa25)
 
+    <i class="icon">{{ "rss" | embed_icon }}</i> Blogs
+    : [Blogs List](blogs.html), [Blogs Feed](blogs.xml)
+
     </div>
 
     <div class="flex-col" markdown="1">
