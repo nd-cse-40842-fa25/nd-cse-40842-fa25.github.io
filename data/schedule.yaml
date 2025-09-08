@@ -28,10 +28,14 @@
           - Reading 02
         items:
           - name:       Slides 02
-            link:       https://docs.google.com/presentation/d/1g7fiwVZskNQjOTNsX3GhJfq2x6ninr-UleR66IwuTko/edit?usp=sharing
+            link:       https://docs.google.com/presentation/d/1-S67CAo_s2Bmpg2a4St0kMBbcePLPBe32w3wPyApOEA/edit?usp=drive_link
 
       - date:           Thu 09/04
-        topics:         Presentations
+        items:
+          - name:       "Hackers: A View of Computer Hardware"
+            link:       https://docs.google.com/presentation/d/11yU2Ii2QO-gGmfJs0ZBcIjbPRiAuBOcfY5O7jnxcuVw/edit
+          - name:       "Apple II"
+            link:       https://docs.google.com/presentation/d/1cAlSiT7TJ8rpRsQoZj-IlAqE7zNHxRNpR5Yus7FRvhc/edit
         assignments:
           - Proposal 01
 
