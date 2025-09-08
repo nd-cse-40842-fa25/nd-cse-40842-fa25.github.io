@@ -127,14 +127,12 @@ body:       |
       {{ day['topics'] }}
       {% endif %}
       {% for item in day.get('items', []) %}
-      {% if item['name'].lower().startswith('exam') %}
-      {% set item_color = 'danger' %}
-      {% elif item['name'].lower().startswith('slide') %}
+      {% if item['name'].lower().startswith('slide') %}
       {% set item_color = 'success' %}
       {% elif item['name'].lower().startswith('panopto') %}
       {% set item_color = 'info' %}
       {% else %}
-      {% set item_color = 'default' %}
+      {% set item_color = 'danger' %}
       {% endif %}
       <a class="badge {{ item_color }}-btn" href="{{ item.get('link') }}">{{ item['name'] }}</a>
       {% endfor %}
