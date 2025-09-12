@@ -59,6 +59,17 @@
         topics:         Presentations
         assignments:
           - Progress 01
+        items:
+          - name:       "Evolution of Emulation"
+            link:       https://docs.google.com/presentation/d/1YJQ5pDPK0JA9X4Nv4EefNx0QY4A-XS61SRpH6h82fic/edit
+          - name:       "Emulation: Preservation and Optimization"
+            link:       https://docs.google.com/presentation/d/1xix1XScHQguhKAal1ekPHpVTO6J3FEKYpKUKgYJz6fk/edit
+          - name:       "Reverse Engineering"
+            link:       https://docs.google.com/presentation/d/1x-_H-pYo8rJUf-BxmCYIkymyw55vHI-GdhiOCAGP3-s/edit
+          - name:       "Joysticks and Controllers"
+            link:       https://docs.google.com/presentation/d/1EVVFYY85NOzHw4OyQOMm0bqM-SjMkIFZfyM5NzmU-NA/edit
+          - name:       "Democratization of Video Games"
+            link:       https://docs.google.com/presentation/d/1LHCZ5DchjBQ-qdgisKvnbsmmh72znwDhAy6YQv1IshI/edit
 
       - date:           Sun 09/14
         topics:         Individual Reflection
