@@ -268,12 +268,11 @@ body:       |
 
   </div>
 
-  <!--//
-  To evaluate your peers, use the following [form]():
+  To evaluate your peers, use the following [form](https://docs.google.com/forms/d/e/1FAIpQLSedgcWQzzUyHyZqAJUL0R83iM8l5qH24CvRfId69MvvM4_fcQ/viewform?usp=dialog):
 
-  <div class="text-center">
+  <div class="centered">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSedgcWQzzUyHyZqAJUL0R83iM8l5qH24CvRfId69MvvM4_fcQ/viewform?embedded=true" width="640" height="2263" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
-  //-->
 
   ## Deliverables
 
