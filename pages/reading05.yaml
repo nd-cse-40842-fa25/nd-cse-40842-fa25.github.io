@@ -1,0 +1,84 @@
+title:      "Reading 05: Programming Languages"
+navigation:
+  - name:   Home
+    link:   index.html
+body:       |
+
+  ## Readings
+
+  <div class="flex-row" markdown="1">
+
+  <div class="flex-col" markdown="1">
+
+  The readings for this week are:
+
+  1. [Beating the Averages](http://paulgraham.com/avg.html)
+
+  2. [The Hundred-Year Language](http://paulgraham.com/hundred.html)
+
+  3. [Revenge of the Nerds](http://www.paulgraham.com/icad.html)
+
+  4. [The Python Paradox](https://www.paulgraham.com/pypar.html)
+
+  </div>
+
+  <div class="flex-col-20 centered">
+    <img src="static/img/hackers-painters.jpg">
+  </div>
+
+  </div>
+
+  ## Reflections
+
+  In these essays, [Paul Graham] discusses the power of [programming languages]
+  such as [Lisp] and how this non-conventional language proved to be a
+  competitive advantage in creating [Viaweb]:
+
+  > Our secret weapon, [Lisp], was similar. We wrote our software in a weird AI
+  language, with a bizarre syntax full of parentheses. For years it had annoyed
+  me to hear [Lisp] described that way. But now it worked to our advantage. In
+  business, there is nothing more valuable than a technical advantage your
+  competitors don't understand. In business, as in war, surprise is worth as
+  much as force.
+
+  For this upcoming week, you are to consider the following questions as you
+  perform the readings and participate in class:
+
+  1. Discuss the idea behind the statement: "programming languages are not just
+  technology, but what programmers think in."  How does a programming language
+  impact the way you tackle a problem or construct an application?
+
+  2. Discuss whether or not "programming languages vary in power."  Are some
+  languages intrinsically more powerful than other languages?  What makes one
+  language **better** than another?
+
+  3. Discuss your experiences with alternative languages such as [Lisp],
+  [Scheme], [Erlang], [Haskell], [Rust], [Zig] or any less popular language.
+  What drew you to these languages?  Did you find them to be useful?  Do you
+  still use them?  Explain why or why not.
+
+  Note, you should not simply list the questions and answer each one directly.
+  Instead, the questions are there to help you brainstorm about the question:
+
+  > How important is the choice of [programming language] in software
+  development and computer science?  What is lacking in our current set of
+  tools?  What ideas or features will continue to persist far into the future?
+
+  Some food for thought:
+
+  <div class="centered">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8pTEmbeENF4" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  [programming language]: https://en.wikipedia.org/wiki/Programming_language
+  [programming languages]: https://en.wikipedia.org/wiki/Programming_language
+  [Lisp]: https://en.wikipedia.org/wiki/Lisp_(programming_language)
+  [Viaweb]: https://en.wikipedia.org/wiki/Viaweb
+
+  [Paul Graham]: http://www.paulgraham.com/
+  [hacker]: https://en.wikipedia.org/wiki/Hacker_culture
+  [Scheme]: https://en.wikipedia.org/wiki/Scheme_(programming_language)
+  [Erlang]: https://en.wikipedia.org/wiki/Erlang_(programming_language)
+  [Haskell]: https://en.wikipedia.org/wiki/Haskell_(programming_language)
+  [Rust]: https://en.wikipedia.org/wiki/Rust_(programming_language)
+  [Zig]: https://en.wikipedia.org/wiki/Zig_(programming_language)
