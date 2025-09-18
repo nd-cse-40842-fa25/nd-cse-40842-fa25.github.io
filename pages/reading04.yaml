@@ -1,0 +1,66 @@
+title:      "Reading 04: Nerds and Hackers"
+navigation:
+  - name:   Home
+    link:   index.html
+body:       |
+
+  ## Readings
+
+  <div class="flex-row" markdown="1">
+
+  <div class="flex-col" markdown="1">
+
+  The readings for this week are:
+
+  1. [Why Nerds Are Unpopular](http://www.paulgraham.com/nerds.html)
+
+  2. [Hackers and Painters](http://www.paulgraham.com/hp.html)
+
+  3. [Good Bad Attitude](http://www.paulgraham.com/gba.html)
+
+  4. [What You Can't Say](http://www.paulgraham.com/say.html)
+
+  </div>
+
+  <div class="flex-col-20 centered">
+    <img src="static/img/hackers-painters.jpg">
+  </div>
+
+  </div>
+
+  ## Reflection
+
+  In these essays, [Paul Graham] paints[^1] a portrait of the modern [hacker],
+  who though "unruly" is a "maker" that "learn[s] ... by doing" and is "the
+  essence of Americanness".
+
+  For this upcoming week, you are to consider the following questions as you
+  perform the readings and participate in class:
+
+  - How does [Paul Graham]'s vision of a [hacker] compare and contrast with the
+  description provided by [Steven Levy] in [Hackers: Heroes of the Computer
+  Revolution]?
+
+  - What passages or arguments in [Paul Graham]'s essays regarding [hacker]s
+    did you find compelling or interesting?
+
+  - What passages or arguments in [Paul Graham]'s essays regarding [hacker]s
+    did you find disagreeable or misguided?
+
+  - What is your personal reaction to [Paul Graham]'s modern version of the
+  [hacker]:  Do you identify with the type of person [Paul Graham] describes or
+  do you find it uninteresting or perhaps offputting?
+
+  Note, you should not simply list the questions and answer each one directly.
+  Instead, the questions are there to help you brainstorm about the question:
+
+  > Is [Paul Graham]'s version of a [hacker] compatible with [Steven Levy]'s
+  description?  Do his arguments for and description of the modern [hacker]
+  change your mind about what it means to be a [hacker] or the desirability of
+  being one?
+
+  [^1]: See what I did :P
+  [Paul Graham]: http://www.paulgraham.com/
+  [hacker]: https://en.wikipedia.org/wiki/Hacker_culture
+  [Steven Levy]: https://en.wikipedia.org/wiki/Steven_Levy
+  [Hackers: Heroes of the Computer Revolution]: https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution
