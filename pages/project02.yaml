@@ -1,0 +1,306 @@
+title:      "Project 02: Cloud Computing"
+navigation:
+  - name:   Home
+    link:   index.html
+body:       |
+
+  **Everyone**:
+
+  The second book of the semester, [Hackers and Painters], examines the power
+  of [programming languages] in enabling the rapid development of web
+  applications and services such as [Viaweb].
+
+  The goal of the second project is for you to explore a **modern** or
+  **unconventional** [programming language] by creating an **web application or
+  service** that runs *in the cloud*.  In addition to creating a software
+  artifact, students must also present a [TechCrunch]-style startup pitch that
+  demonstrates and highlights the features of their software artifact.
+
+  ## Requirements
+
+  Working in groups of **2 - 3**, students must create a software or hardware
+  artifact that meets the following requirements:
+
+  1.  <div class="flex-col">
+
+      The artifact is written primarily in a relatively **modern** or
+      **unconventional** programming language such as:
+
+      <table markdown="1">
+      <tbody markdown="1">
+      <tr markdown="1">
+      <td markdown="1">
+
+      - [Clojure](https://clojure.org/)
+      - [Crystal](https://crystal-lang.org/)
+      - [Elixir](https://elixir-lang.org/)
+      - [Elm](https://elm-lang.org/)
+      - [Erlang](https://www.erlang.org/)
+      - [Go](https://golang.org/)
+      - [Haskell](https://www.haskell.org/)
+      - [Julia](https://julialang.org/)
+
+      </td>
+      <td>
+
+      - [Kotlin](https://kotlinlang.org/)
+      - [Lua](https://www.lua.org/)
+      - [Nim](https://nim-lang.org/)
+      - [OCaml](https://ocaml.org/)
+      - [Rust](https://www.rust-lang.org/)
+      - [Scala](https://www.scala-lang.org/)
+      - [Swift](https://developer.apple.com/swift/)
+      - [Zig](https://ziglang.org/)
+
+      </td>
+      </tr>
+      </tbody>
+      </table>
+
+      Moreover, the artifact must utilize a **unique** feature of the language
+      such as:
+
+      - Functional Programming
+      - Meta-programming (ie. macros)
+      - Concurrency/Parallel Constructs
+      - Advanced Type Facilities
+
+      <div class="alert success-bg" markdown="1">
+      The important thing is that you stretch your mind a bit :].
+      </div>
+
+      </div>
+
+  2. The artifact is a web application (**interactive**) or web service
+  (provides a [RESTful] API).
+
+  3. The artifact must be hosted on a cloud platform such as [Amazon Web
+  Services], [Windows Azure], [Google Cloud], [Vercel], or [Digital Ocean].
+
+  4. The source code is stored on an online repository such as [GitHub],
+  [GitLab], or [Codeberg].
+
+  5. The project includes sufficient documentation to build, deploy, and use
+  the artifact.
+
+  6. The repository `README.md` explains the goal of the project and describes
+  how it takes advantage of the **unique** features of the chosen
+  **non-traditional** programming language.
+
+  <div class="alert info-bg" markdown="1">
+  #### <i class="fa fa-code"></i> MVP
+
+  Because of the short time-frame, it is not expected that your artifact be
+  polished or feature complete.  Instead, it should be more along the lines of
+  a prototype or [MVP] (e.g. a cool [hack]).
+
+  </div>
+
+  [RESTful]:    https://en.wikipedia.org/wiki/Representational_state_transfer
+
+  ## Timeline
+
+  Here is the project timeline:
+
+  <table class="bordered">
+  <thead>
+    <th>Date</th>
+    <th>Milestone</th>
+    <th>Description</th>
+  </thead>
+  <tbody>
+    <tr class="success-bg">
+      <td>October 2</td>
+      <td>Proposal</td>
+      <td>Description of proposed project.</td>
+    </tr>
+    <tr class="caution-bg">
+      <td>October 9</td>
+      <td>Progress</td>
+      <td>Status report of current progress.</td>
+    </tr>
+    <tr class="warning-bg">
+      <td>October 14</td>
+      <td>Hackathon</td>
+      <td>Group work period.</td>
+    </tr>
+    <tr class="danger-bg">
+      <td>October 16</td>
+      <td>Presentation</td>
+      <td>In-class presentations and demonstrations.</td>
+    </tr>
+  </tbody>
+  </table>
+
+  More details about each of these milestones is described below.
+
+  ### Proposal
+
+  Your group must submit a proposal document by **midnight** on **Thursday,
+  October 2**, which provides the following information:
+
+  1. Lists the group members and each of their proposed roles.
+
+  2. Describe the proposed project and how it meets the project requirements.
+
+  3. Enumerates any resources required.
+
+  <div class="alert success-bg" markdown="1">
+
+  ### <i class="icon icon-medium">{{ "cash" | embed_icon }}</i> Cloud Computing Resources
+
+  If you need any cloud computing resources, many platforms such as [Amazon Web
+  Services], [Windows Azure], [Google Cloud], [Vercel], and [Digital Ocean]
+  have free tiers or promotional credits.
+
+  </div>
+
+  ### Progress
+
+  Your group must submit a proposal **slide deck** (**5 - 8** slides) by
+  **midnight** on **Thursday, October 9**, which provides the following information:
+
+  1. Addresses the questions and expections in feedback email provided
+  regarding the project proposal.
+
+  2. Summarizes the work done thus far, in particular the design and
+  implementation details of your artifact.
+
+  3. Enumerates the remaining tasks, with specifics on what you plan on
+  accomplishing during the upcoming sprint week and what you realistically plan
+  on accomplishing before the deadline.
+
+  4. Itemize contributions to the project thus far and what how each member
+  will aid in completing the tasks above.
+
+  <div class="alert success-bg" markdown="1">
+  Provide **video** or **image** evidence of your project and your progress.
+  </div>
+
+  ### Presentation
+
+  Because we are aiming for a [TechCrunch]-style presentation, each group will
+  be given **6 - 8 minutes** to sell the class on their artifact:
+
+  <div class="centered">
+  <iframe width="640" height="360"
+  src="https://www.youtube.com/embed/J-GVd_HLlps" frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope;
+  picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  To help you organize your **pitch**, your group must submit a project **slide
+  deck** (**4-6** slides) by **11:00 AM** on **Thursday, October 16**, which
+  provides the following information:
+
+  1. Demonstrate the web application or service.
+
+  2. Describe the design and architecture of the software project.
+
+  3. Discuss how project took advantage of unique features in the chosen
+  programming language.
+
+  This slide deck should be used as the basis for the **pitch** that the group
+  will provide to the class.
+
+  ## Rubric
+
+  The project will be graded with the following rubric:
+
+  <table class="bordered" markdown="1">
+  <thead>
+    <th>Metric</th>
+    <th>Points</th>
+    <th>Description</th>
+  </thead>
+  <tbody>
+  <tr class="success-bg">
+    <td>Proposal</td>
+    <td>5</td>
+    <td>Does the proposed project meet the requirements?</td>
+  </tr>
+  <tr class="caution-bg">
+    <td>Progress</td>
+    <td>10</td>
+    <td>How much work did the group do before the hackathon?</td>
+  </tr>
+  <tr class="warning-bg">
+    <td>Presentation</td>
+    <td>5</td>
+    <td>How well did the group present and demonstrate their artifact?</td>
+  </tr>
+  <tr class="warning-bg">
+    <td>Requirements</td>
+    <td>5</td>
+    <td>How well did the project meet the requirements?</td>
+  </tr>
+  <tr class="warning-bg">
+    <td>Technical Challenge</td>
+    <td>5</td>
+    <td>How difficult was the project?</td>
+  </tr>
+  <tr class="danger-bg">
+    <td>Execution</td>
+    <td>7.5</td>
+    <td>How complete was the project?</td>
+  </tr>
+  <tr class="danger-bg">
+    <td>User Experience</td>
+    <td>7.5</td>
+    <td>How enjoyable was project for end users?</td>
+  </tr>
+  </tbody>
+  </table>
+
+  <div class="alert danger-bg" markdown="1">
+
+  ### <i class="icon icon-medium">{{ "scale-balance" | embed_icon }}</i> Peer Evaluation
+
+  The first two metrics will be graded by the instructor, but the final five
+  metrics will be evaluated based on feedback from your fellow classmates.
+
+  </div>
+
+  <!--
+  To evaluate your peers, use the following [form](https://forms.gle/Q6GLSB1bT7sS1VZq8):
+
+  <div class="text-center">
+  </div>
+  //-->
+
+  ## Deliverables
+
+  Once you have organized your group, please fill out the following [form](https://forms.gle/B3JjcytBeiddxgwK6):
+
+  <div class="centered">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfSwtph72ZlLjPerDj_ilc-BG2J8DzZn5N_uFCN1Scz5r_udg/viewform?embedded=true" width="800" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+
+  <div class="alert info-bg" markdown="1">
+
+  ### <i class="icon icon-medium">{{ "share-variant" | embed_icon }}</i> Shared Google Drive Folder
+
+  **Note**, you will place your **Proposal**, **Progress Report**, and
+  **Presentation** in the **Google Drive** folder that you link in the form above.
+
+  Make sure you give the instructor **permissions** to view the contents of the
+  shared **Google Drive** folder.
+
+  </div>
+
+  [Hackers]:    https://en.wikipedia.org/wiki/Hacker
+  [GitHub]:     https://github.com
+  [GitLab]:     https://gitlab.com
+  [Codeberg]:   https://codeberg.org
+  [Hackers and Painters]:   https://en.wikipedia.org/wiki/Hackers_%26_Painters
+  [programming language]:  https://en.wikipedia.org/wiki/Programming_language
+  [programming languages]:  https://en.wikipedia.org/wiki/Programming_language
+  [Viaweb]:                 https://en.wikipedia.org/wiki/Viaweb
+  [TechCrunch]:             https://techcrunch.com/
+  [MVP]:        https://en.wikipedia.org/wiki/Minimum_viable_product
+  [hack]:       https://en.wikipedia.org/wiki/Kludge#Computer_science
+  [Amazon Web Services]:    https://aws.amazon.com/free/
+  [Windows Azure]:          https://azure.microsoft.com/en-us/free/
+  [Google Cloud]:           https://cloud.google.com/free/
+  [Vercel]:                 https://www.vercel.com/
+  [Digital Ocean]:          https://www.digitalocean.com/
