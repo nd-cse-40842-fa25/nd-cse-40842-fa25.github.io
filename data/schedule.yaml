@@ -93,6 +93,9 @@
         topics:         Why Nerds Are Unpopular, Hackers and Painters, Good Bad Attitude, What You Can't Say
         assignments:
           - Reading 04
+        items:
+          - name:       Slides 04
+            link:       https://docs.google.com/presentation/d/1zi6xfBxrQ233JtSq4Efmwe41UIny8AUnmprvaTXL5-s/edit?usp=sharing
 
       - date:           Thu 09/25
         topics:         Presentations
