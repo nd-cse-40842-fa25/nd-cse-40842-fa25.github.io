@@ -116,6 +116,9 @@
         topics:         Presentations
         assignments:
           - Proposal 02
+        items:
+          - name:       Slides 05
+            link:       https://docs.google.com/presentation/d/1MNjkF4cbrqIss_bAps6LRrWSg9sst1c3cDSM9KUtfK0/edit?usp=sharing
 
       - date:           Sun 10/05
         topics:         Individual Reflection
