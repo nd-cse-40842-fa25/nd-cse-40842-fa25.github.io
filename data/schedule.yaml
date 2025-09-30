@@ -99,6 +99,21 @@
 
       - date:           Thu 09/25
         topics:         Presentations
+        items:
+          - name:       "Technology in the Media"
+            link:       https://docs.google.com/presentation/d/1dqkDEvBF0V99YSnfHzvzc9P5T1J3UTotjGB0HHx3064/edit?usp=drive_link
+          - name:       "Cryptonomicon"
+            link:       https://docs.google.com/presentation/d/1GBC-Ql86OHipKO4RsGQPFDrqeHQ6Hc80Oty7GhPx7Fk/edit?usp=drive_link
+          - name:       "Imitation Game"
+            link:       https://docs.google.com/presentation/d/1xh709oJNYSSL44kF-5qIV78snQVhLX1i12bVsxWKFuc/edit?usp=sharing
+          - name:       "TRON"
+            link:       https://docs.google.com/presentation/d/1fQgcF6eK5A-VKVT7YvMKHiQTfkhJCq9t0BjWICcfOEU/edit?usp=sharing
+          - name:       "Matrix"
+            link:       https://nd4-my.sharepoint.com/:p:/g/personal/gargueta_nd_edu/EVpefu48d8FLhHBosQqgi2MBED0w6tZRvDrBes5E6vNfqQ?e=mTZotm
+          - name:       "The Circle"
+            link:       https://docs.google.com/presentation/d/1BOfhzyNljDN_qUXVrDW7dg8-0f33I-xgZmACDGni4Ms/edit?usp=sharing
+          - name:       "Mr. Robot"
+            link:       https://docs.google.com/presentation/d/1mBEkgByRwktnEWI9GxjQ51bOZRzO-0nrsU4VHRJA7Yg/edit?usp=sharing
 
       - date:           Sun 09/28
         topics:         Individual Reflection
