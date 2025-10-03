@@ -126,14 +126,25 @@
         topics:         Beating the Averages, The Hundred-Year Language, Revenge of the Nerds, The Python Paradox
         assignments:
           - Reading 05
+        items:
+          - name:       Slides 05
+            link:       https://docs.google.com/presentation/d/1MNjkF4cbrqIss_bAps6LRrWSg9sst1c3cDSM9KUtfK0/edit?usp=sharing
 
       - date:           Thu 10/02
         topics:         Presentations
         assignments:
           - Proposal 02
         items:
-          - name:       Slides 05
-            link:       https://docs.google.com/presentation/d/1MNjkF4cbrqIss_bAps6LRrWSg9sst1c3cDSM9KUtfK0/edit?usp=sharing
+          - name:       "Netflix"
+            link:       https://drive.google.com/file/d/13g78I8_knFDxnTSpVrDaNQKW6RQNHnKL/view?usp=sharing
+          - name:       "AWS"
+            link:       https://docs.google.com/presentation/d/1pvOvmdFKpGMEMZWZjHxR0QIt_z7N6FTTo1Lt7ygKidE/edit?usp=sharing
+          - name:       "Kotlin"
+            link:       https://docs.google.com/presentation/d/1r17NMGOIuZ33SuL0JRrrvjTFCvmAdwEQIv2qlUVigQQ/edit?usp=sharing
+          - name:       "Rust"
+            link:       https://docs.google.com/presentation/d/1cPZUcJ3MGbU0JqTwf-FQILYZj_OVrfBnx8Ci84Phskw/edit?usp=sharing
+          - name:       "Esoteric Languages"
+            link:       https://docs.google.com/presentation/d/1wHP5jhtBia9Mh26tLwBxkW-h0hluQYmr0mbjy0w3fDg/edit?usp=sharing
 
       - date:           Sun 10/05
         topics:         Individual Reflection
