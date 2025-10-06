@@ -155,6 +155,9 @@
         topics:         How To Make Wealth, The Right Kind of Stubborn, When To Do What You Love
         assignments:
           - Reading 06
+        items:
+          - name:       Slides 06
+            link:       https://docs.google.com/presentation/d/1PZcQ0O_HC5w1m_9RRHuwE8hGQJVB0pimGIVEK8rubiA/edit?usp=sharing
 
       - date:           Thu 10/09
         topics:         Presentations
