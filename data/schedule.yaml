@@ -160,9 +160,17 @@
             link:       https://docs.google.com/presentation/d/1PZcQ0O_HC5w1m_9RRHuwE8hGQJVB0pimGIVEK8rubiA/edit?usp=sharing
 
       - date:           Thu 10/09
-        topics:         Presentations
         assignments:
           - Progress 02
+        items:
+          - name:       "Ethics"
+            link:       https://docs.google.com/presentation/d/1L2fhADY2hdrqAttPhQfxgPG0WyNd39pjMVLSboMr7FA/edit?usp=sharing
+          - name:       "Anti-trust"
+            link:       https://docs.google.com/presentation/d/183MZ8ZVzav9Al3tewRCFJXYgHzLgyUFbG4yVyQwxjAY/edit?usp=sharing
+          - name:       "Blockchain and Cryptography"
+            link:       https://docs.google.com/presentation/d/13efCZhVzRgUigCTk9t5pY6B5Vvy2E6MAOIcXTa78nl8/edit?usp=sharing
+          - name:       "UBI"
+            link:       https://docs.google.com/presentation/d/1lYGS7plFwz7r048s3dY8ORQawJG9f2jIR0Wm1qIjEAY/edit?usp=sharing
 
       - date:           Sun 10/12
         topics:         Individual Reflection
