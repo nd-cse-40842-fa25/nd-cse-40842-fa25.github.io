@@ -1,0 +1,87 @@
+title:      "Reading 07: The Cathedral and the Bazaar"
+navigation:
+  - name:   Home
+    link:   index.html
+body:       |
+
+  ## Readings
+
+  <div class="flex-row" markdown="1">
+
+  <div class="flex-col" markdown="1">
+
+  The readings for this week are:
+
+  1. [A Brief History of Hackerdom](http://www.catb.org/esr/writings/homesteading/hacker-history/)
+
+  2. [The Cathedral and the Bazaar](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/)
+
+  </div>
+
+  <div class="flex-col-20 centered">
+    <img src="static/img/cathedral.jpg">
+  </div>
+
+  </div>
+
+  ## Reflections
+
+  In these essays, [ESR] discusses [the Cathedral and the Bazaar]:
+
+  > No quiet, reverent cathedral-building here—rather, the Linux community
+  seemed to resemble a great babbling bazaar of differing agendas and
+  approaches ... out of which a coherent and stable system could seemingly
+  emerge only by a succession of miracles.
+
+  For this upcoming week, you are to consider the following questions as you
+  perform the readings and participate in class:
+
+  1. What are the difference between the **cathedral** model of software
+  development and the **bazaar** style of software engineering.  Which models
+  have you experienced?  Which one do you prefer?
+
+  2.  <div class="flex-col" markdown="1">
+
+      In his [The Cathedral and the Bazaar], [ESR] enumerates **19** principles
+      such as:
+
+      > 1: Every good work of software starts by scratching a developer's personal itch.
+
+      and
+
+      > 6: Treating your users as co-developers is your least-hassle route to
+      rapid code improvement and effective debugging.
+
+      From your experience with software development, which of these principles
+      ring true?
+
+      </div>
+
+  3.  <div class="flex-col" markdown="1">
+
+      [ESR] ends [The Cathedral and the Bazaar] by saying:
+
+      > Perhaps in the end the open-source culture will triumph not because
+      cooperation is morally right or software ``hoarding'' is morally wrong
+      (assuming you believe the latter, which neither Linus nor I do), but
+      simply because the closed-source world cannot win an evolutionary arms
+      race with open-source communities that can put orders of magnitude more
+      skilled time into a problem.
+
+      What do you make of this? Has the [open source] (ie. **bazaar**) model
+      won?  Is it the future of software development?
+
+      </div>
+
+  Note, you should not simply list the questions and answer each one directly.
+  Instead, the questions are there to help you brainstorm about the question:
+
+  > From your experience, which model of software development is superior: the
+    **cathedral** or the **bazaar**?  Which is the future of software
+    development?  Are the two models mutually exclusive?
+
+  [ESR]: http://www.catb.org/esr/
+  [The Cathedral and the Bazaar]: https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar
+  [open source]: https://en.wikipedia.org/wiki/Open-source_model
+  [Steven Levy]: https://en.wikipedia.org/wiki/Steven_Levy
+  [Paul Graham]: https://en.wikipedia.org/wiki/Paul_Graham_(computer_programmer)
