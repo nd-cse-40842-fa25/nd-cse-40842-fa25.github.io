@@ -197,6 +197,9 @@
         topics:         A Brief History of Hackerdom, The Cathedral and The Bazaar
         assignments:
           - Reading 07
+        items:
+          - name:       Slides 07
+            link:       https://docs.google.com/presentation/d/16sY6sR0ws1qr9iem4dqvYZDlJGMbtwFA2ujEA9giJLE/edit?usp=sharing
 
       - date:           Thu 10/30
         topics:         Presentations
