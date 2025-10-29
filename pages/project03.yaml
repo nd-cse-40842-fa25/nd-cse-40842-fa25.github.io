@@ -1,0 +1,373 @@
+title:      "Project 03: Open Source"
+body:       |
+
+  ## Overview
+
+  The third book of the semester, [The Cathedral and the Bazaar], examines the
+  history, motivations, sociology, philosophy, and economics behind the [open
+  source] movement.  In his writings, [ESR] spends a significant amount of time
+  discussing different projects such as [Linux], [Mozilla], and [Fetchmail].
+
+  The last book of the semester, [Just For Fun], examines the life of [Linus
+  Torvalds] and the development of the [Linux] operating system.
+
+  For the third project, you will have two options, based on the books above:
+
+  1. The first option is for you to explore an existing [open source] project
+  and provide a case study of it.  The artifact that you will create is a
+  **presentation** that you will need to present to the class.
+
+  2. The second option is for you to mimic [Linus Torvalds] and work on an
+  [open source] project "just for fun".  Rather than work from scratch,
+  however, you are to take one of your previous projects (perhaps from another
+  class or a side hobby) and turn it into a presentable [open source] project
+  others can not only utilize, but also contribute to.
+
+  ## Timeline
+
+  Regardless of which project your group selects, here is the project timeline:
+
+  <table class="bordered">
+  <thead>
+    <th>Date</th>
+    <th>Milestone</th>
+    <th>Description</th>
+  </thead>
+  <tbody>
+    <tr class="success-bg">
+      <td class="text-strong">Thursday, November 06</td>
+      <td>Proposal</td>
+      <td>Description of proposed project.</td>
+    </tr>
+    <tr class="caution-bg">
+      <td class="text-strong">Thursday, November 20</td>
+      <td>Progress</td>
+      <td>Status report of current progress.</td>
+    </tr>
+    <tr class="danger-bg">
+      <td class="text-strong">Tuesday, December 02</td>
+      <td>Hackathon</td>
+      <td>Group work period.</td>
+    </tr>
+    <tr class="danger-bg">
+      <td class="text-strong">Thursday, December 04</td>
+      <td>Presentation</td>
+      <td>In-class presentations and demonstrations.</td>
+    </tr>
+    <tr class="danger-bg">
+      <td class="text-strong">Tuesday, December 09</td>
+      <td>Presentation</td>
+      <td>In-class presentations and demonstrations.</td>
+    </tr>
+  </tbody>
+  </table>
+
+  More details about each of these milestones is described below.
+
+  ## Requirements
+
+  Working in groups of **2** - **3**, students must work on one of the
+  following two projects options:
+
+  ### Option 1: Open Source Contribution
+
+  Create an [open source] case study that meets the following requirements:
+
+  1.  <div class="flex-col">
+
+      The project your group studies must be a well established [open source]
+      project with a reasonable amount of history such as:
+
+      - [Mozilla]
+
+      - [GCC](https://gcc.gnu.org/)
+
+      - [Linux]
+
+      - [Python](https://www.python.org/)
+
+      - [Ubuntu](https://www.ubuntu.com/)
+
+      - [LibreOffice](https://www.libreoffice.org/)
+
+      - [WeeChat](https://weechat.org/)
+
+      - [Wordpress](https://wordpress.org/)
+
+      - [Vim](http://www.vim.org/)
+
+      - [VS Code](https://github.com/microsoft/vscode/)
+
+      Ideally, it would be a project that you use regularly and have an interest in.
+
+      </div>
+
+  2.  <div class="flex-col">
+
+      Each member of your group must attempt to make a contribution to the
+      [open source] project such as a pull request, bug report, documentation,
+      etc.
+
+      <div class="alert info-bg" markdown="1">
+
+      **Note**: The contribution **does not** need to be code related.  See:
+        [How to Contribute to Open
+        Source](https://opensource.guide/how-to-contribute/).
+
+      </div>
+
+      </div>
+
+  3.  <div class="flex-col">
+
+      The final **case study** must include the following topics:
+
+      - A brief summary of what the project is, what its goals are, who is the
+        target audience, and what are its key features (ie. why is it
+        interesting).
+
+      - A discussion on whether or not the project follows any of [ESR]'s 19
+        principles that he enumerated in [The Cathedral and the Bazaar].
+
+      - A discussion of what sort of [homesteading in the
+        noosphere](http://www.catb.org/~esr/writings/cathedral-bazaar/homesteading/)
+        the project participates in (ie. how does the community communicate and
+        organize itself, what sort of web properties does it run, etc.).
+
+      - A discussion on the license the project uses and who contributes to the
+        project's [magic cauldron].
+
+      - A discussion of the process of contributing to the project, including
+        evidence of your group's attempt to contribute.
+
+      </div>
+
+  #### Resources
+
+  - [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
+
+  - [OpenHub](https://www.openhub.net/)
+
+  - [Google Summer of Code](https://developers.google.com/open-source/gsoc/)
+
+  - [Open Source Initiative](https://opensource.org/)
+
+  ### Option 2: Just For Fun
+
+  Create an [open source] project that meets the following requirements:
+
+  -   <div class="flex-col">
+
+      Modifies a previous project in one of the following ways:
+
+      - Translate a project into a new programming (or spoken) language.
+
+      - Utilize different libraries or programming language features to
+        implement functionality.
+
+      - Re-factor code to meet coding style or convention.
+
+      - Re-factor code so it can easily be installed or deployed or fit within
+        a package management system.
+
+      - Adds new functionality or features.
+
+      </div>
+
+  - Provides downloadable packages or binaries for the end-user to utilize.
+
+  - Includes a `LICENSE` file which contains the [open source] license for the
+    project.
+
+  -   <div class="flex-col">
+
+      Has a web page that describes and advertises their project (with
+      screenshots or video).
+
+      - This web page should discuss the origin or inspiration for the project
+        and its ultimate end goal or milestones.
+
+      - Likewise, it should provide a set of documentation for installing and
+        utilizing your program.
+
+      - Finally, it should provide information about how to contribute and
+        develop the project.
+
+      </div>
+
+  The source code for your project should be stored on an online repository
+  such as [GitHub], [GitLab], or [Codeberg].
+
+  #### Examples
+
+  Here are some real world examples you should strive towards:
+
+  - [i3wm](https://i3wm.org/)
+
+  - [weechat](https://weechat.org/)
+
+  - [qutebrowser](https://qutebrowser.org/)
+
+  - [Tornado](https://www.tornadoweb.org/en/stable/)
+
+  - [Requests](http://docs.python-requests.org/en/master/)
+
+  - [Ghostty](https://ghostty.org/)
+
+  - [Hyprland](https://hypr.land/)
+
+  ## Proposal
+
+  Your group must submit a proposal document by **midnight** on **Thursday,
+  November 6**, which provides the following information:
+
+  1. Lists the group members and each of their proposed roles.
+
+  ### Option 1: Open Source Contribution
+
+  2. Identify the [open source] project your group wishes to study and explain
+  why it was chosen.
+
+  3. Describe the possible contributions you will attempt to make to the
+  project (and which group members will be working on the contributions).
+
+  ### Option 2: Just For Fun
+
+  2. Describe the proposed project and how it meets the project requirements.
+
+  3. Explains how the original project will be converted into an [open source]
+  project and what modifications will take place.
+
+  ## Progress Report
+
+  Your group must submit a proposal **slide deck** (**3 - 6** slides) by
+  **midnight** on **Thursday, November 20**, which provides the following
+  information:
+
+  1. Addresses the questions and expectations in feedback email provided
+  regarding the project proposal.
+
+  2. Summarizes the work done thus far, in particular the status of your
+  contributions to the [open source] project and what sort of community
+  interaction your group has experienced (**option 1**) or the design and
+  implementation details of your artifact (**option 2**).
+
+  3. Enumerates the remaining tasks, with specifics on what you plan on
+  accomplishing during the upcoming sprint week and what you realistically plan
+  on accomplishing before the deadline.
+
+  4. Itemize contributions to the project thus far and how each member
+  will aid in completing the tasks above.
+
+  <div class="alert success-bg" markdown="1">
+  Provide **video** or **image** evidence of your project and your progress.
+  </div>
+
+  ## Presentation
+
+  Each group will have approximately **4** to **6** minutes to present the
+  case study of their chosen [open source] project or to present their own
+  [open source] project.
+
+  For the [open source] contribution option, address the questions in the
+  requirements.  For the "Just For Fun" option, describe the origins of your
+  project, the modifications you made, and your future plans for new
+  contributions.
+
+  To help you organize your **presentation**, your group must submit a project
+  **slide deck** (**6-10** slides) by **midnight** on **Wednesday, December
+  03**, which provides the information described in the requirements.
+
+  ## Rubric
+
+  The project will be graded with the following rubric:
+
+  <table class="bordered" markdown="1">
+  <thead>
+    <th>Metric</th>
+    <th>Points</th>
+    <th>Description</th>
+  </thead>
+  <tbody>
+  <tr class="success-bg">
+    <td>Proposal</td>
+    <td>10</td>
+    <td>Does the proposed project meet the requirements?</td>
+  </tr>
+  <tr class="caution-bg">
+    <td>Progress</td>
+    <td>10</td>
+    <td>How much work did the group do before the presentations?</td>
+  </tr>
+  <tr class="warning-bg">
+    <td>Presentation</td>
+    <td>10</td>
+    <td>How well did the group present and demonstrate their case study or open source project?</td>
+  </tr>
+  <tr class="warning-bg">
+    <td>Requirements</td>
+    <td>10</td>
+    <td>How well did the project meet the requirements?</td>
+  </tr>
+  <tr class="warning-bg">
+    <td>Technical Challenge</td>
+    <td>10</td>
+    <td>How difficult was the group's contribution?</td>
+  </tr>
+  <tr class="danger-bg">
+    <td>Execution</td>
+    <td>10</td>
+    <td>How complete was the group's contribution?</td>
+  </tr>
+  </tbody>
+  </table>
+
+  <div class="alert danger-bg" markdown="1">
+
+  ### <i class="icon icon-medium">{{ "scale-balance" | embed_icon }}</i> Peer Evaluation
+
+  The first two metrics will be graded by the instructor, but the final four
+  metrics will be evaluated based on feedback from your fellow classmates.
+
+  </div>
+
+  <!--
+  To evaluate your peers, use the following []():
+
+  <div class="centered">
+  </div>
+  //-->
+
+  ## Deliverables
+
+  Once you have organized your group, please fill out the following [form](https://forms.gle/FDehKztFJDDaEfXB7):
+
+  <div class="centered">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfN7DSjP2371Fl8rU_GAo8e24DV01QrrjmP3JV-U_jp0rloTQ/viewform?embedded=true" width="800" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+
+  <div class="alert info-bg" markdown="1">
+
+  ### <i class="icon icon-medium">{{ "share-variant" | embed_icon }}</i> Shared Google Drive Folder
+
+  **Note**, you will place your **Proposal**, **Progress Report**, and
+  **Presentation** in the **Google Drive** folder that you link in the form above.
+
+  Make sure you give the instructor **permissions** to view the contents of the
+  shared **Google Drive** folder.
+
+  </div>
+
+  [open source]: https://en.wikipedia.org/wiki/Open-source_model
+  [ESR]: http://www.catb.org/esr/
+  [The Cathedral and the Bazaar]: http://www.catb.org/~esr/writings/cathedral-bazaar/
+  [Mozilla]: https://www.mozilla.org/en-US/
+  [Fetchmail]: http://www.fetchmail.info/
+  [Linux]: https://www.kernel.org/
+  [magic cauldron]: http://www.catb.org/~esr/writings/cathedral-bazaar/magic-cauldron/
+  [Linus Torvalds]: https://en.wikipedia.org/wiki/Linus_Torvalds
+
+  [Just For Fun]: https://archive.org/details/JustForFun
+  [GitHub]: https://github.com
+  [GitLab]: https://gitlab.com
+  [Codeberg]: https://codeberg.org
