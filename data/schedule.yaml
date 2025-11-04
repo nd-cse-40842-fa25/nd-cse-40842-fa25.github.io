@@ -215,6 +215,11 @@
         topics:         Homesteading the Noosphere, The Magic Cauldron
         assignments:
           - Reading 08
+        items:
+          - name:       Slides 08
+            link:       https://docs.google.com/presentation/d/11FOT5FryzXbCK7p1Tcf8b3MHNSQuoLTKrHw6hvLvXFE/edit?usp=sharing
+          - name:       Slides 09
+            link:       https://docs.google.com/presentation/d/1W3-4Tx8W_eggr90EVzI-iYH43CwtmVbh76aPGgiwtpU/edit?usp=sharing
 
       - date:           Thu 11/06
         topics:         Presentations
