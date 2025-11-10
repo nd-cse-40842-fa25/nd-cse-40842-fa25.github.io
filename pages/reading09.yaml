@@ -1,0 +1,64 @@
+title:      "Reading 09: Birth of a Nerd OS"
+navigation:
+  - name:   Home
+    link:   index.html
+body:       |
+
+  ## Readings
+
+  <div class="flex-row" markdown="1">
+
+  <div class="flex-col" markdown="1">
+
+  The readings for this week are:
+
+  1. [Birth of a Nerd](https://archive.org/details/justforfun00linu/mode/2up)
+
+  2. [Birth of an Operating System](https://archive.org/details/justforfun00linu/mode/2up)
+
+  </div>
+
+  <div class="flex-col-20 centered">
+    <img src="static/img/justforfun.jpg">
+  </div>
+
+  </div>
+
+  ## Reflections
+
+  For this week, we will be reading the autobiography of [Linus Torvalds], whom
+  many consider the ultimate [hacker]:
+
+  > And I basically sat in front of a computer for four years... My order was
+  always the same: a Coke and a doughnut... Yes, I was definitely a geek.  No
+  question about it... So I would be sitting in front of a computer and be
+  perfectly happy.
+
+  For this upcoming week, you are to consider the following questions as you
+  perform the readings and participate in class:
+
+  1. In what ways did [Linus Torvalds]'s upbringing resemeble yours?  In what
+  ways was it different?  What elements of his childhood contributed to his
+  development as a [hacker]?
+
+  2. What drove [Linus Torvalds] to create his own operating system?  What was
+  his original motivation?  What resources did he have?  Who did he work with?
+  How much planning or how serious did he take his endeavor?
+
+  3. What *itch* do you currently have?  That is, what sort of problem or
+  project do you wish you could solve... just for fun?
+
+  Note, you should not simply list the questions and answer each one directly.
+  Instead, the questions are there to help you brainstorm about the question:
+
+  > Do you find the story of [Linus Torvalds]' upbringing and creation of
+  [Linux] inspiring, interesting, or irrelevant?  How does his story compare to
+  other computing industry titans such as [Bill Gates], [Steve Jobs], or [Mark
+  Zuckerberg]?  What do you wish your story to be?
+
+  [Linus Torvalds]: https://en.wikipedia.org/wiki/Linus_Torvalds
+  [hacker]: https://en.wikipedia.org/wiki/Hacker_culture
+  [Linux]: https://www.kernel.org
+  [Bill Gates]: https://en.wikipedia.org/wiki/Bill_Gates
+  [Steve Jobs]: https://en.wikipedia.org/wiki/Steve_Jobs
+  [Mark Zuckerberg]: https://en.wikipedia.org/wiki/Mark_Zuckerberg
