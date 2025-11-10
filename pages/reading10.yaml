@@ -1,0 +1,64 @@
+title:      "Reading 10: King of the Ball"
+navigation:
+  - name:   Home
+    link:   index.html
+body:       |
+
+  ## Readings
+
+  <div class="flex-row" markdown="1">
+
+  <div class="flex-col" markdown="1">
+
+  The readings for this week are:
+
+  1. [King of the Ball](https://archive.org/details/justforfun00linu/mode/2up)
+
+  </div>
+
+  <div class="flex-col-20 centered">
+    <img src="static/img/justforfun.jpg">
+  </div>
+
+  </div>
+
+  ## Reflections
+
+  In this week's readings, [Linus Torvalds] discusses the early days of [Linux]
+  and how it grew into an overnight success:
+
+  > The announcement launched Linux into the above-the-radar zone in Finland,
+  and it started generating publicity elsewhere, too.  A lot of the early
+  headlines came about because some journalist had stumbled over Linux and got
+  excited about it...  It was far more attention than I had expected initially.
+
+  For this upcoming week, you are to consider the following questions as you
+  perform the readings and participate in class:
+
+  1. What sort of growing pains did [Linus Torvalds] face in the early days of
+  [Linux] and how did he deal with them?
+
+  2. [Linus Torvalds] views himself as somewhat counter-cultural in that he
+  disagreed with the typical mindset present in Silicon Valley over issues such
+  as work-life balance and job stability.  Discuss these differences and how
+  [Linus Torvalds] differed with both [Bill Joy] and [Steve Jobs] on various
+  issues related to open source and operating systems..
+
+  3. Finally, discuss how [Linus Torvalds] dealt with success.  How does he
+  define success in regards to [Linux]?
+
+  Note, you should not simply list the questions and answer each one directly.
+  Instead, the questions are there to help you brainstorm about the question:
+
+  > What do you make of [Linux]'s success?  Is it proof of the power of
+  [hackers] in the **bazaar**?  Or was it simply a matter of fortunate
+  circumstances?  Will there ever be another [open source] success story as big
+  as [Linux]?
+
+  [Linus Torvalds]: https://en.wikipedia.org/wiki/Linus_Torvalds
+  [hackers]: https://en.wikipedia.org/wiki/Hacker_culture
+  [Linux]: https://www.kernel.org/
+  [Bill Joy]: https://en.wikipedia.org/wiki/Bill_Joy
+  [Steve Jobs]: https://en.wikipedia.org/wiki/Steve_Jobs
+  [Linux]: https://kernel.org
+  [open source]: https://opensource.org
