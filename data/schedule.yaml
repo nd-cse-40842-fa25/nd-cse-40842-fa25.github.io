@@ -202,7 +202,17 @@
             link:       https://docs.google.com/presentation/d/16sY6sR0ws1qr9iem4dqvYZDlJGMbtwFA2ujEA9giJLE/edit?usp=sharing
 
       - date:           Thu 10/30
-        topics:         Presentations
+        items:
+          - name:       "IETF"
+            link:       https://docs.google.com/presentation/d/1LSKJF8qvdFAZNZKIowceaK2mRdbtPZicz8TSiIPz7mU/edit?usp=sharing
+          - name:       "ASWF"
+            link:       https://docs.google.com/presentation/d/1LRwhY7R9AD8DYlw-8Tij6lMdUWYUH9_z3DhSFXZ_4_E/edit?usp=sharing
+          - name:       "OpenToonz"
+            link:       https://docs.google.com/presentation/d/19a87n_dbOGCMwU-WkXOIJTJNBZwsZSvuMdcWeQBUELQ/edit?usp=sharing
+          - name:       "Wikipedia"
+            link:       https://docs.google.com/presentation/d/10i3-BtMFStHFACTbDExNLUBrhU_B2hV2do5izfmDP6E/edit?slide=id.p#slide=id.p
+          - name:       "Framework & Right to Repair"
+            link:       https://docs.google.com/presentation/u/0/d/1Pzy0BleJ9YDkHzRWKP2vnsgmZyokpR99bizbtwEDxAA/edit
 
       - date:           Sun 11/02
         topics:         Individual Reflection
