@@ -239,6 +239,9 @@
         topics:         Birth of a Nerd, Birth of an Operating System
         assignments:
           - Reading 09
+        items:
+          - name:       Slides 10
+            link:       https://docs.google.com/presentation/d/1jlNPKd48p-AJPo2RIM0ciuiWsiTiRZA_cAzOtb2X00s/edit?usp=sharing
 
       - date:           Thu 11/13
         topics:         Presentations
@@ -254,6 +257,9 @@
         topics:         King of the Ball
         assignments:
           - Reading 10
+        items:
+          - name:       Slides 11
+            link:       https://docs.google.com/presentation/d/1GrZxto9rUdSof-J_CkS1G1eNoWtzWeSQXC9GWQxzods/edit?usp=sharing
 
       - date:           Thu 11/20
         topics:         Presentations
