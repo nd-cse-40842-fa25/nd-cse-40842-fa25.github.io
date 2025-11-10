@@ -232,9 +232,19 @@
             link:       https://docs.google.com/presentation/d/1W3-4Tx8W_eggr90EVzI-iYH43CwtmVbh76aPGgiwtpU/edit?usp=sharing
 
       - date:           Thu 11/06
-        topics:         Presentations
         assignments:
           - Proposal 03
+        items:
+          - name:       "The Greatest Kickstarter Ever"
+            link:       https://docs.google.com/presentation/d/1sJnBql5o-mAws56PWmJ4QL3wpAiiH_gq-9JWBUI9djk/edit?usp=sharing
+          - name:       "Bug Bounty"
+            link:       https://docs.google.com/presentation/d/1_Y149icMykFSH0DAS1f0_-fNaPatx4-6svXQ_PnIiXw/edit?usp=sharing
+          - name:       "Patreon"
+            link:       https://docs.google.com/presentation/u/0/d/1p-Gu9iHpOAOAcgGrbEYlgjiDx_uzk1cwrU9rmmTa7Gg/edit
+          - name:       "Honey"
+            link:       https://docs.google.com/presentation/d/1LSvuGBkPEuPTe3L16VTN2XEsfNsYbF-DQeQKNm5wnRE/edit?slide=id.g39fb4ceee4c_1_341#slide=id.g39fb4ceee4c_1_341
+          - name:       "WikiLeaks"
+            link:       https://docs.google.com/presentation/d/12ZWOX_Zym3gdzqyjDw55Gp9SKhfWtceXb1WlK-iElNA/edit?usp=sharing
 
       - date:           Sun 11/09
         topics:         Individual Reflection
