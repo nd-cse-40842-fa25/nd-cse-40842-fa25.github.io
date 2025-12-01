@@ -213,6 +213,8 @@
             link:       https://docs.google.com/presentation/d/10i3-BtMFStHFACTbDExNLUBrhU_B2hV2do5izfmDP6E/edit?slide=id.p#slide=id.p
           - name:       "Framework & Right to Repair"
             link:       https://docs.google.com/presentation/u/0/d/1Pzy0BleJ9YDkHzRWKP2vnsgmZyokpR99bizbtwEDxAA/edit
+          - name:       "Vibe Coding"
+            link:       https://docs.google.com/presentation/d/1PxeocHeyAmKgExb69XQ1STN3UMax3-DZXB0E0gSwSYM/edit?slide=id.g38a0629d31e_0_0#slide=id.g38a0629d31e_0_0
 
       - date:           Sun 11/02
         topics:         Individual Reflection
@@ -245,6 +247,8 @@
             link:       https://docs.google.com/presentation/d/1LSvuGBkPEuPTe3L16VTN2XEsfNsYbF-DQeQKNm5wnRE/edit?slide=id.g39fb4ceee4c_1_341#slide=id.g39fb4ceee4c_1_341
           - name:       "WikiLeaks"
             link:       https://docs.google.com/presentation/d/12ZWOX_Zym3gdzqyjDw55Gp9SKhfWtceXb1WlK-iElNA/edit?usp=sharing
+          - name:       "Luanti"
+            link:       https://docs.google.com/presentation/d/1rJBi-DB5As68ImUGVHjMEjtBuTqUn1oFefUxMCID2VA/edit?usp=sharing
 
       - date:           Sun 11/09
         topics:         Individual Reflection
@@ -265,6 +269,15 @@
 
       - date:           Thu 11/13
         topics:         Presentations
+        items:
+          - name:       "Distros, Desktop Environments"
+            link:       https://docs.google.com/presentation/d/1exrWIOnUusmKW2cCG7OZe3Os0v5JvRET27dnBBlfEN4/edit?usp=sharing
+          - name:       "SteamOS"
+            link:       https://docs.google.com/presentation/u/0/d/1f2_mkGxqMBlFVLA6OqiUUM1djk3G6AMigRsL9Y8NOSQ/edit
+          - name:       "Tails OS"
+            link:       https://docs.google.com/presentation/u/0/d/1f2_mkGxqMBlFVLA6OqiUUM1djk3G6AMigRsL9Y8NOSQ/edit
+          - name:       "Git Hosting Platforms"
+            link:       https://docs.google.com/presentation/d/1waintdkjRqrvyUt19P5Deb6ZAo6fMjMr/edit?usp=sharing&ouid=108556530478241799643&rtpof=true&sd=true
 
       - date:           Sun 11/16
         topics:         Individual Reflection
@@ -285,6 +298,11 @@
         topics:         Presentations
         assignments:
           - Progress 03
+        items:
+          - name:       Flutter
+            link:       https://docs.google.com/presentation/d/1_tTW4KN4I74ez6HoYpZItiftaVJjDbjyiAwKloqIg08/edit?usp=sharing
+          - name:       Homebrew
+            link:       https://drive.google.com/file/d/1tuvAhWgXs7XzXEg8bMdvRIVSwJsMbrRY/view?usp=sharing
 
       - date:           Sun 11/23
         topics:         Individual Reflection
@@ -305,7 +323,7 @@
         topics:         Hackathon
 
       - date:           Thu 12/04
-        topics:         Presentations
+        topics:         Hackathon
 
 - name:     Project 03
   days:
